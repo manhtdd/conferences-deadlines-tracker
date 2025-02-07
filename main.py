@@ -1,4 +1,5 @@
 import concurrent.futures
+import json
 
 import requests
 from bs4 import BeautifulSoup
@@ -21,6 +22,7 @@ conferences = dom.xpath("//div[div[@class='panel-title' and text()='Upcoming Con
 
 # Extract the events from the conferences
 calendar = Calendar()
+result_list = []
 
 def fetch_conference_events(conference):
     events = []
@@ -37,10 +39,19 @@ def fetch_conference_events(conference):
             td_elements = tr.xpath(".//td")
             event_date = extract_row_element_text(td_elements[0])
             event_track = extract_row_element_text(td_elements[1])
-            event_title = extract_row_element_text(td_elements[2])
+            event_content = extract_row_element_text(td_elements[2])
 
-            event = create_event(conference_name, event_date, event_track, event_title)
-            events.append(event)
+
+            if check_filter(conference_name, event_track, event_content):
+                event = create_event(conference_name, event_date, event_track, event_content)
+                events.append(event)
+
+            result_list.append({
+                "conference": conference_name.strip(),
+                "date": event_date.strip(),
+                "track": event_track.strip(),
+                "content": event_content.strip()
+            })
     return events
 
 with concurrent.futures.ThreadPoolExecutor() as executor:
@@ -51,3 +62,7 @@ with concurrent.futures.ThreadPoolExecutor() as executor:
 # Save the conference events to a file
 with open("conference_events.ics", "w") as f:
     f.writelines(calendar)
+
+with open("conference_events.jsonl", "w") as f:
+    for result in result_list:
+        f.write(json.dumps(result) + "\n")

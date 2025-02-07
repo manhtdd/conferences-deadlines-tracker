@@ -1,3 +1,4 @@
+import json
 import re
 
 from ics import Event
@@ -18,6 +19,9 @@ MONTH_DICT = {
     "Dec": 12
 }
 AOE_TZ = timezone(timedelta(hours=-12))
+
+with open('filter.json', 'r') as filter_file:
+    filters = json.load(filter_file)
 
 def extract_row_element_text(td):
     if td.text:
@@ -55,10 +59,10 @@ def get_date(event_date):
 
     return year, month, day, hour, minute
     
-def create_event(event_conference, event_date, event_track, event_title):
+def create_event(event_conference, event_date, event_track, event_content):
     event = Event()
     
-    event.name = event_conference + " - " + event_title
+    event.name = event_conference + " - " + event_content
     event.description = f"""
         Conference: {event_conference}
         Date: {event_date}
@@ -100,3 +104,22 @@ def create_event(event_conference, event_date, event_track, event_title):
         event.end = (datetime(int(end_year), MONTH_DICT[end_month], int(end_day), end_hour, end_minute) + timedelta(minutes=1)).replace(tzinfo=AOE_TZ)
 
         return event
+    
+def check_filter(event_conference, event_track, event_content):
+    conference_name = re.sub(r'\b-?\d{4}\b', '', event_conference).strip()
+    track = event_track.strip()
+    content = event_content.strip()
+    
+    # Check if conference is allowed
+    if conference_name not in filters['conference_filter'] or not filters['conference_filter'][conference_name]:
+        return False
+    
+    # Check if track is allowed
+    if track not in filters['track_filter'][conference_name] or not filters['track_filter'][conference_name][track]:
+        return False
+    
+    # Check if content is allowed
+    if content not in filters['content_filter'] or not filters['content_filter'][content]:
+        return False
+    
+    return True
