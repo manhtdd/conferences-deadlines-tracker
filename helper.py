@@ -70,7 +70,7 @@ def create_event(event_conference, event_date, event_track, event_title):
     if '-' not in event_date:
         year, month, day, _, _ = get_date(event_date)
         event.begin = datetime(int(year), MONTH_DICT[month], int(day), 0, 0).replace(tzinfo=AOE_TZ)
-        event.end = datetime(int(year), MONTH_DICT[month], int(day), 23, 59).replace(tzinfo=AOE_TZ)
+        event.end = (datetime(int(year), MONTH_DICT[month], int(day), 23, 59) + timedelta(minutes=1)).replace(tzinfo=AOE_TZ)
 
         return event
     else:
@@ -97,6 +97,6 @@ def create_event(event_conference, event_date, event_track, event_title):
         end_minute = 59 if end_minute is None else end_minute
 
         event.begin = datetime(int(start_year), MONTH_DICT[start_month], int(start_day), start_hour, start_minute).replace(tzinfo=AOE_TZ)
-        event.end = datetime(int(end_year), MONTH_DICT[end_month], int(end_day), end_hour, end_minute).replace(tzinfo=AOE_TZ)
+        event.end = (datetime(int(end_year), MONTH_DICT[end_month], int(end_day), end_hour, end_minute) + timedelta(minutes=1)).replace(tzinfo=AOE_TZ)
 
         return event
