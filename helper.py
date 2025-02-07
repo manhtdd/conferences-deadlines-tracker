@@ -1,7 +1,7 @@
 import re
 
 from ics import Event
-from datetime import date, datetime
+from datetime import datetime, timezone, timedelta
 
 MONTH_DICT = {
     "Jan": 1,
@@ -17,6 +17,7 @@ MONTH_DICT = {
     "Nov": 11,
     "Dec": 12
 }
+AOE_TZ = timezone(timedelta(hours=-12))
 
 def extract_row_element_text(td):
     if td.text:
@@ -68,8 +69,9 @@ def create_event(event_conference, event_date, event_track, event_title):
     # Only 1 day event:
     if '-' not in event_date:
         year, month, day, _, _ = get_date(event_date)
-        event.begin = date(int(year), MONTH_DICT[month], int(day))
-        event.make_all_day()
+        event.begin = datetime(int(year), MONTH_DICT[month], int(day), 0, 0).replace(tzinfo=AOE_TZ)
+        event.end = datetime(int(year), MONTH_DICT[month], int(day), 23, 59).replace(tzinfo=AOE_TZ)
+
         return event
     else:
         start_date, end_date = event_date.split("-")
@@ -88,21 +90,13 @@ def create_event(event_conference, event_date, event_track, event_title):
         start_day = start_day if start_day else end_day
         end_day = end_day if end_day else start_day
 
-        # If hour and minute are None, it is an all day event
-        if start_hour is None and start_minute is None and end_hour is None and end_minute is None:
-            event.begin = date(int(start_year), MONTH_DICT[start_month], int(start_day))
-            event.end = date(int(end_year), MONTH_DICT[end_month], int(end_day))
+        # Set default values if they are None
+        start_hour = 0 if start_hour is None else start_hour
+        start_minute = 0 if start_minute is None else start_minute
+        end_hour = 23 if end_hour is None else end_hour
+        end_minute = 59 if end_minute is None else end_minute
 
-            event.make_all_day()
-        # If hour and minute are not None, it is a timed event
-        else:
-            # Set default values if they are None
-            start_hour = 0 if start_hour is None else start_hour
-            start_minute = 0 if start_minute is None else start_minute
-            end_hour = 23 if end_hour is None else end_hour
-            end_minute = 59 if end_minute is None else end_minute
-
-            event.begin = datetime(int(start_year), MONTH_DICT[start_month], int(start_day), start_hour, start_minute)
-            event.end = datetime(int(end_year), MONTH_DICT[end_month], int(end_day), end_hour, end_minute)
+        event.begin = datetime(int(start_year), MONTH_DICT[start_month], int(start_day), start_hour, start_minute).replace(tzinfo=AOE_TZ)
+        event.end = datetime(int(end_year), MONTH_DICT[end_month], int(end_day), end_hour, end_minute).replace(tzinfo=AOE_TZ)
 
         return event
