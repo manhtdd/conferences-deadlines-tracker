@@ -4,9 +4,12 @@ on:
   schedule:
     - cron: '0 0 * * *'  # Runs every day at midnight UTC
   workflow_dispatch:  # Allows manual triggering
+  push:
+    branches:
+      - main
 
 jobs:
-  run-script:
+  execute-code:
     runs-on: ubuntu-latest
 
     steps:
@@ -31,11 +34,19 @@ jobs:
       - name: Run Python Script
         run: python main.py
 
-      - name: Commit and Push Changes
+      - name: Configure Git
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add .
-          git commit -m "Auto-update results from main.py [skip ci]" || echo "No changes to commit"
-          git push https://x-access-token:${{ secrets.GH_PAT }}@github.com/auphong2707/conference-crawler.git main
+          git config --global user.name "auphong2707"
+          git config --global user.email "auphong2707@gmail.com"
       
+      - name: Add changes to git
+        run: |
+          git add .
+
+      - name: Commit changes
+        run: |
+          git commit -m "Update results"
+
+      - name: Push changes
+        run: |
+          git push origin main
