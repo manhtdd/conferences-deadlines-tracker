@@ -1,4 +1,5 @@
 import concurrent.futures
+import os
 
 import requests
 from bs4 import BeautifulSoup
@@ -6,6 +7,7 @@ from lxml import etree
 from ics import Calendar
 
 from utils import *
+from datetime import datetime
 
 
 # Get the HTML content of the website
@@ -67,5 +69,10 @@ for event in events:
         calendar.events.add(event)
 
 # Save the conference events to a file
-with open("conference_events.ics", "w") as f:
+current_date = datetime.now().strftime("%Y-%m-%d")
+os.makedirs("results", exist_ok=True)
+with open(f"results/{current_date}.ics", "w") as f:
     f.writelines(calendar)
+
+# Upload the calendar to Google Calendar
+upload_calendar_to_google(calendar.events)

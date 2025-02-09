@@ -3,6 +3,13 @@ import re
 
 from ics import Event
 from datetime import datetime, timezone, timedelta, date
+from dateutil.parser import isoparse
+
+from googleapiclient.discovery import build
+from google.oauth2 import service_account
+from ics import Calendar, Event
+
+from typing import List
 
 MONTH_DICT = {
     "Jan": 1,
@@ -19,6 +26,10 @@ MONTH_DICT = {
     "Dec": 12
 }
 AOE_TZ = timezone(timedelta(hours=-12))
+
+SERVICE_ACCOUNT_FILE = ".credentials/wise-coyote-450409-a5-e01a4b7d7fa6.json"
+SCOPES = ["https://www.googleapis.com/auth/calendar"]
+CALENDAR_ID = "c1c3cc42b9be97acffa4fb3bcb785cd4f57aa914fbbdf8698b349c429ebf17c3@group.calendar.google.com"
 
 try:
     with open('filter_config.json', 'r') as filter_file:
@@ -190,3 +201,35 @@ def update_filter(events):
     # Export the filters
     with open('filter_config.json', 'w') as filter_file:
         json.dump(filters, filter_file, indent=4)
+
+
+def upload_calendar_to_google(new_events: List[Event]):
+    creds = service_account.Credentials.from_service_account_file(
+        SERVICE_ACCOUNT_FILE, scopes=SCOPES
+    )
+
+    # Connect to Google Calendar API
+    service = build("calendar", "v3", credentials=creds)
+
+    # Call the Calendar API to removes all the events that have ends time >= now
+    events_result = service.events().list(calendarId=CALENDAR_ID, singleEvents=True, orderBy="startTime").execute()
+    events = events_result.get("items", [])
+
+    for event in events:
+        end_time = isoparse(event["end"]["dateTime"])
+        event_tz = end_time.tzinfo
+        
+        if end_time >= datetime.now(tz=event_tz):
+            service.events().delete(calendarId=CALENDAR_ID, eventId=event["id"]).execute()
+
+    # Add new events to the calendar
+    for event in new_events:
+        event = {
+            "summary": event.name,
+            "description": event.description,
+            "start": {"dateTime": event.begin.isoformat()},
+            "end": {"dateTime": event.end.isoformat()},
+        }
+        service.events().insert(calendarId=CALENDAR_ID, body=event).execute()
+
+    print("Calendar updated successfully!")
