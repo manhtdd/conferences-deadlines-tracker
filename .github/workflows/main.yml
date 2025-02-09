@@ -1,0 +1,28 @@
+name: Daily Run
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Runs every day at midnight UTC
+  workflow_dispatch:  # Allows manual triggering
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Create Service Client JSON
+        run: echo '${{ secrets.SERVICE_CLIENT }}' > service_client.json
+
+      - name: Set Up Python 3.12
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.12'
+
+      - name: Install Dependencies
+        run: pip install -r requirements.txt  # Ensure dependencies are installed
+
+      - name: Run Python Script
+        run: python main.py
