@@ -27,7 +27,7 @@ MONTH_DICT = {
 }
 AOE_TZ = timezone(timedelta(hours=-12))
 
-SERVICE_ACCOUNT_FILE = ".credentials/wise-coyote-450409-a5-e01a4b7d7fa6.json"
+SERVICE_ACCOUNT_FILE = ".credentials/service_client.json"
 SCOPES = ["https://www.googleapis.com/auth/calendar"]
 CALENDAR_ID = "c1c3cc42b9be97acffa4fb3bcb785cd4f57aa914fbbdf8698b349c429ebf17c3@group.calendar.google.com"
 
