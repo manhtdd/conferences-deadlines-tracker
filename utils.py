@@ -2,7 +2,7 @@ import json
 import re
 
 from ics import Event
-from datetime import datetime, timezone, timedelta
+from datetime import datetime, timezone, timedelta, date
 
 MONTH_DICT = {
     "Jan": 1,
@@ -108,27 +108,42 @@ def create_event(event_conference, event_date, event_track, event_content):
 
         return event
     
-def check_filter(event_conference, event_track, event_content):
-    conference_name = re.sub(r'\b-?\d{4}\b', '', event_conference).strip()
-    track = event_track.strip()
-    content = event_content.strip()
+def check_filter(event_conference, event_date, event_track, event_content):
+    event_conference = re.sub(r'\b-?\d{4}\b', '', event_conference).strip()
+    event_track = event_track.strip()
+    event_content = event_content.strip()
+    year, month, day, _, _ = get_date(event_date)
+    event_date = date(int(year), MONTH_DICT[month], int(day))
+
+    # Check if upcoming duration is allowed
+    upcoming_delta = timedelta(days=filters['upcoming_duration']['day'] + filters['upcoming_duration']['month'] * 30 + filters['upcoming_duration']['year'] * 365)
+    if event_date < date.today() or event_date > date.today() + upcoming_delta:
+        return False
     
     # Check if conference is allowed
-    if conference_name not in filters['conference_filter'] or not filters['conference_filter'][conference_name]:
+    if event_conference not in filters['conference_filter'] or not filters['conference_filter'][event_conference]:
         return False
     
     # Check if track is allowed
-    if track not in filters['track_filter'][conference_name] or not filters['track_filter'][conference_name][track]:
+    if event_track not in filters['track_filter'][event_conference] or not filters['track_filter'][event_conference][event_track]:
         return False
     
     # Check if content is allowed
-    if content not in filters['content_filter'] or not filters['content_filter'][content]:
+    if event_content not in filters['content_filter'] or not filters['content_filter'][event_content]:
         return False
     
     return True
 
 
 def update_filter(events):
+    # Filter Upcoming duration
+    if 'upcoming_duration' not in filters:
+        filters['upcoming_duration'] = {
+            "year": 1,
+            "month": 0,
+            "day": 0
+        }
+
     # Filter Conferences
     if 'conference_filter' not in filters:
         filters['conference_filter'] = {}

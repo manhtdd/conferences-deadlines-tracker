@@ -57,13 +57,13 @@ update_filter(events)
 # Create the events in the calendar
 calendar = Calendar()
 for event in events:
-    conference = event["conference"]
+    event_conference = event["conference"]
     event_date = event["date"]
     event_track = event["track"]
     event_content = event["content"]
 
-    if check_filter(conference, event_track, event_content):
-        event = create_event(conference, event_date, event_track, event_content)
+    if check_filter(event_conference, event_date, event_track, event_content):
+        event = create_event(event_conference, event_date, event_track, event_content)
         calendar.events.add(event)
 
 # Save the conference events to a file

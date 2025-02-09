@@ -1,4 +1,9 @@
 {
+    "upcoming_duration": {
+        "year": 0,
+        "month": 6,
+        "day": 0
+    },
     "conference_filter": {
         "APLAS": false,
         "APSEC": false,
