@@ -16,7 +16,7 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Create Service Client JSON
-        run: echo '${{ secrets.SERVICE_ACCOUNT_JSON }}' > service_client.json
+        run: echo '${{ secrets.SERVICE_ACCOUNT_JSON }}' > .credentials/service_client.json
 
       - name: Set Up Python 3.12
         uses: actions/setup-python@v4
