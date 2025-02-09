@@ -33,8 +33,10 @@
             "Research Papers": true
         },
         "ASE": {
+            "Journal-First Track": false,
             "NIER Track": true,
-            "Research Papers": true
+            "Research Papers": true,
+            "Tool Demonstration Track": false
         },
         "CISOSE": {
             "IEEE AITest 2025": true,
@@ -286,6 +288,7 @@
         "Camera-Ready Submission Deadline": true,
         "Camera-Ready Version": true,
         "Camera-ready": true,
+        "Camera-ready Deadline": false,
         "Camera-ready Submission": true,
         "Camera-ready Submission for Papers and 1-Pager Talks": true,
         "Camera-ready abstracts and posters": true,
