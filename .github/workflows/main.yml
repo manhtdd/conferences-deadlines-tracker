@@ -18,7 +18,7 @@ jobs:
       - name: Create Service Client JSON
         run: |
           mkdir -p .credentials  # Ensure the directory exists
-          echo '${{ secrets.SERVICE_CLIENT }}' > .credentials/service_client.json
+          echo "${{ secrets.SERVICE_CLIENT }}" > .credentials/service_client.json
 
       - name: Set Up Python 3.12
         uses: actions/setup-python@v4
