@@ -63,6 +63,7 @@
             "EQUISA": true,
             "Industry Papers": true,
             "International Workshop on Software Security Engineering": true,
+            "Journal-first": false,
             "LEARNER": true,
             "Learnings/Reflections of Evaluation and Assessment projects in Software Engineering": true,
             "Posters and Vision": true,
@@ -198,6 +199,7 @@
         },
         "PROFES": {
             "Doctoral Symposium": true,
+            "Research Papers": false,
             "Short Papers and Posters": true,
             "Workshops and Tutorials": true
         },
@@ -250,6 +252,7 @@
         "Abstract Submission": true,
         "Abstract Submission Deadline": true,
         "Abstract Submission deadline": true,
+        "Abstract and Paper Submission": false,
         "Abstract registration deadline": true,
         "Abstract submission": true,
         "Abstracts": true,
