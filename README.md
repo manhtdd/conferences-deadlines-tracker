@@ -10,6 +10,7 @@
 - Filters events based on user-defined criteria in `filter_config.json`.
 - Uploads filtered events to a Google Calendar.
 - Automated daily updates using GitHub Actions.
+- Automated notifies when there are new conferences in the calendar or new items in the filter.
 
 ## Prerequisites
 
