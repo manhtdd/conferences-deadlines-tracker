@@ -168,6 +168,8 @@ def update_filter(events):
     for conference in current_conferences:
         if conference not in filters['conference_filter']:
             filters['conference_filter'][conference] = False
+            log_notification(f"New conference updated in the filter: {conference}")
+
     filters['conference_filter'] = {k: v for k, v in sorted(filters['conference_filter'].items())}
 
     # Filter Tracks
@@ -186,6 +188,8 @@ def update_filter(events):
         for track in tracks:
             if track not in filters['track_filter'][conference]:
                 filters['track_filter'][conference][track] = False
+                log_notification(f"New track updated in the filter: {conference} - {track}")
+
         filters['track_filter'][conference] = {k: v for k, v in sorted(filters['track_filter'][conference].items())}
 
     # Filter Contents
@@ -196,6 +200,8 @@ def update_filter(events):
         content = event['content']
         if content not in filters['content_filter']:
             filters['content_filter'][content] = False
+            log_notification(f"New content updated in the filter: {content}")
+
     filters['content_filter'] = {k: v for k, v in sorted(filters['content_filter'].items())}
 
     # Export the filters
@@ -233,3 +239,8 @@ def upload_calendar_to_google(new_events: List[Event]):
         service.events().insert(calendarId=CALENDAR_ID, body=event).execute()
 
     print("Calendar updated successfully!")
+
+def log_notification(message):
+    print(message)
+    with open("notification.log", "a") as f:
+        f.write(f"{message}\n")

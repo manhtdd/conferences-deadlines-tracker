@@ -57,6 +57,7 @@ with concurrent.futures.ThreadPoolExecutor() as executor:
 update_filter(events)
 
 # Sort events by date, conference, track, and content
+events = [event for event in events if check_filter(event["conference"], event["date"], event["track"], event["content"])]
 events = sorted(events, key=lambda x: (x["date"], x["conference"], x["track"], x["content"]))
 
 # Compare events with the old events
@@ -67,6 +68,14 @@ if os.path.exists("results/conference_events.jsonl"):
         if old_events == events:
             print("No new events found")
             exit()
+        else:
+            newly_appear_conferences = set()
+            for event in events:
+                if event not in old_events:
+                    newly_appear_conferences.add(event["conference"])
+
+            log_notification(f"New events found in the following conferences: {', '.join(newly_appear_conferences)}")
+
 
 # Save the new events to a file
 os.makedirs("results", exist_ok=True)
@@ -77,14 +86,8 @@ with open("results/conference_events.jsonl", "w") as f:
 # Create the events in the calendar
 calendar = Calendar()
 for event in events:
-    event_conference = event["conference"]
-    event_date = event["date"]
-    event_track = event["track"]
-    event_content = event["content"]
-
-    if check_filter(event_conference, event_date, event_track, event_content):
-        event = create_event(event_conference, event_date, event_track, event_content)
-        calendar.events.add(event)
+    event = create_event(event["conference"], event["date"], event["track"], event["content"])
+    calendar.events.add(event)
 
 # Save the conference events to a file
 with open(f"results/conference_events.ics", "w") as f:
