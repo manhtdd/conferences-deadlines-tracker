@@ -44,7 +44,9 @@
     }
     ```
 
-5. Add the contents of this JSON file as an **Actions Secret** in your GitHub repository with name **SERVICE_CLIENT**.
+5. Visit **Settings > Secrets and variables > Actions** of the repository on GitHub then create a **New repository secret** with:
+    - *Name*: **SERVICE_CLIENT**
+    - *Secret*: the content of the downloaded JSON file.
 
 ### **3. Configure Google Calendar**
 1. Open [Google Calendar](https://calendar.google.com).
