@@ -45,3 +45,20 @@ jobs:
       - name: Push changes
         run: |
           git push origin main
+
+      - name: Notify the user via commit comment
+        if: ${{ hashFiles('notification.log') != '' }}
+        uses: actions/github-script@v6
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const fs = require('fs');
+            const logContent = fs.existsSync('notification.log') ? fs.readFileSync('notification.log', 'utf8') : "No details available.";
+            
+            github.rest.repos.createCommitComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              commit_sha: context.sha,
+              body: logContent
+            });
+        
