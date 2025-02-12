@@ -58,7 +58,7 @@
      ```
 5. Also at the your calendar's setting, grant necessary permissions:
     - Visit **Share with specific people or groups** tab.
-    - Add **<CLIENT_EMAIL>** and grant **"Make changes to events"** permission.
+    - Add **<CLIENT_EMAIL>** (from the .json file in step 2) and grant **"Make changes to events"** permission.
 
 ### **4. Update GitHub Workflow Configuration**
 1. Modify `.github/workflows/main.yml`:
