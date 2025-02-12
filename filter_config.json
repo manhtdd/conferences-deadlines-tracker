@@ -74,6 +74,7 @@
         },
         "ECSA": {
             "Call for Papers": true,
+            "Call for Research Papers": false,
             "Call for Tools & Demos": true,
             "Call for Workshops": true,
             "Doctoral Symposium": true,
@@ -179,6 +180,7 @@
         "ISSTA": {
             "Artifact Evaluation": true,
             "Doctoral Symposium": true,
+            "EXPRESS": false,
             "Research Papers": true,
             "Tool Demonstrations": true
         },
@@ -354,6 +356,7 @@
         "Initial Notification": true,
         "Journal first acceptance notification": true,
         "Journal first submission deadline": true,
+        "Keynote speaker published": false,
         "Kick-the-Tires Round 2": true,
         "Main Conference Paper": true,
         "New Idea Track Acceptance Notification": true,
