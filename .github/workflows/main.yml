@@ -40,11 +40,14 @@ jobs:
 
       - name: Commit changes
         run: |
-          git commit -m "Update results"
+          git commit -m "🚀 Daily Run: Update results" || echo "No changes to commit"
+
+      - name: Get Latest Commit SHA
+        run: echo "LATEST_COMMIT=$(git rev-parse HEAD)" >> $GITHUB_ENV
 
       - name: Push changes
         run: |
-          git push origin main
+          git push origin || echo "No changes to push"
 
       - name: Notify the user via commit comment
         if: ${{ hashFiles('notification.log') != '' }}
@@ -58,7 +61,6 @@ jobs:
             github.rest.repos.createCommitComment({
               owner: context.repo.owner,
               repo: context.repo.repo,
-              commit_sha: context.sha,
+              commit_sha: process.env.LATEST_COMMIT,
               body: logContent
             });
-        
