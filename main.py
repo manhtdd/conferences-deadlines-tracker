@@ -74,7 +74,8 @@ if os.path.exists("results/conference_events.jsonl"):
                 if event not in old_events:
                     newly_appear_conferences.add(event["conference"])
 
-            log_notification(f"New events found in the following conferences: {', '.join(newly_appear_conferences)}")
+            if newly_appear_conferences:
+                log_notification(f"New events found in the following conferences: {', '.join(newly_appear_conferences)}")
 
 
 # Save the new events to a file
