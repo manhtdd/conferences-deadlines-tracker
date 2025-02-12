@@ -65,10 +65,7 @@ if os.path.exists("results/conference_events.jsonl"):
     with open("results/conference_events.jsonl", "r") as f:
         old_events = [json.loads(line) for line in f.readlines()]
 
-        if old_events == events:
-            print("No new events found")
-            exit()
-        else:
+        if old_events != events:
             newly_appear_conferences = set()
             for event in events:
                 if event not in old_events:
