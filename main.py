@@ -56,6 +56,9 @@ with concurrent.futures.ThreadPoolExecutor() as executor:
 # Update the filter.json file with the new events
 update_filter(events)
 
+# Sort events by date, conference, track, and content
+events = sorted(events, key=lambda x: (x["date"], x["conference"], x["track"], x["content"]))
+
 # Create the events in the calendar
 calendar = Calendar()
 for event in events:
@@ -71,7 +74,7 @@ for event in events:
 # Save the conference events to a file
 current_date = datetime.now().strftime("%Y-%m-%d")
 os.makedirs("results", exist_ok=True)
-with open(f"results/{current_date}.ics", "w") as f:
+with open(f"results/conference_events.ics", "w") as f:
     f.writelines(calendar)
 
 # Upload the calendar to Google Calendar
