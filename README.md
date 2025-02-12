@@ -62,10 +62,10 @@
     - Add **<CLIENT_EMAIL>** and grant **"Make changes to events"** permission.
 
 ### **4. Update GitHub Workflow Configuration**
-1. Modify the `main.yaml` file:
+1. Modify `.github/workflows/main.yml`:
     - Update the **user name** and **user email** to match your GitHub account.
 2. Ensure **Read and write permissions** are enabled:
-    - Go to **Settings → Actions → General** in your GitHub repository.
+    - Go to **Settings > Actions > General** in your GitHub repository.
     - Set **Workflow permissions** to **Read and write permissions**.
 
 ### **5. Update `filter.json` (Optional)**
