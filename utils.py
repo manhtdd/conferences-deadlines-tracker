@@ -29,7 +29,7 @@ AOE_TZ = timezone(timedelta(hours=-12))
 
 SERVICE_ACCOUNT_FILE = ".credentials/service_client.json"
 SCOPES = ["https://www.googleapis.com/auth/calendar"]
-CALENDAR_ID = "c1c3cc42b9be97acffa4fb3bcb785cd4f57aa914fbbdf8698b349c429ebf17c3@group.calendar.google.com"
+CALENDAR_ID = "70404ab2f1be4e0ad3643e79d269f1ea4fa6b9d830f4ac15f06843e1e0f2c6f3@group.calendar.google.com"
 
 try:
     with open('filter_config.json', 'r') as filter_file:

@@ -7,21 +7,21 @@
     "conference_filter": {
         "APLAS": false,
         "APSEC": false,
-        "ASE": false,
+        "ASE": true,
         "CISOSE": false,
         "CIbSE": false,
-        "EASE": false,
+        "EASE": true,
         "ECSA": false,
         "ESEIW": false,
-        "FSE": false,
+        "FSE": true,
         "FSEN": false,
-        "ICFP/SPLASH": true,
-        "ICSE": false,
+        "ICFP/SPLASH": false,
+        "ICSE": true,
         "ICSME": true,
-        "ICST": true,
-        "ICT4S": true,
+        "ICST": false,
+        "ICT4S": false,
         "ISEC": false,
-        "ISSTA": false,
+        "ISSTA": true,
         "MODELS": false,
         "POPL": false,
         "PROFES": false,
@@ -32,14 +32,14 @@
     },
     "track_filter": {
         "APLAS": {
-            "Research Papers": true
+            "Research Papers": false
         },
         "APSEC": {
-            "Research Papers": true
+            "Research Papers": false
         },
         "ASE": {
             "Journal-First Track": false,
-            "NIER Track": true,
+            "NIER Track": false,
             "Research Papers": true,
             "Tool Demonstration Track": false
         },
