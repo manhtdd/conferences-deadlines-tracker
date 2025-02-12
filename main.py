@@ -59,6 +59,21 @@ update_filter(events)
 # Sort events by date, conference, track, and content
 events = sorted(events, key=lambda x: (x["date"], x["conference"], x["track"], x["content"]))
 
+# Compare events with the old events
+if os.path.exists("results/conference_events.jsonl"):
+    with open("results/conference_events.jsonl", "r") as f:
+        old_events = [json.loads(line) for line in f.readlines()]
+
+        if old_events == events:
+            print("No new events found")
+            exit()
+
+# Save the new events to a file
+os.makedirs("results", exist_ok=True)
+with open("results/conference_events.jsonl", "w") as f:
+    for event in events:
+        f.write(json.dumps(event) + "\n")
+
 # Create the events in the calendar
 calendar = Calendar()
 for event in events:
@@ -72,8 +87,6 @@ for event in events:
         calendar.events.add(event)
 
 # Save the conference events to a file
-current_date = datetime.now().strftime("%Y-%m-%d")
-os.makedirs("results", exist_ok=True)
 with open(f"results/conference_events.ics", "w") as f:
     f.writelines(calendar)
 
