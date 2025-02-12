@@ -7,7 +7,7 @@ from dateutil.parser import isoparse
 
 from googleapiclient.discovery import build
 from google.oauth2 import service_account
-from ics import Calendar, Event
+from ics import Event
 
 from typing import List
 
@@ -30,6 +30,7 @@ AOE_TZ = timezone(timedelta(hours=-12))
 SERVICE_ACCOUNT_FILE = ".credentials/service_client.json"
 SCOPES = ["https://www.googleapis.com/auth/calendar"]
 CALENDAR_ID = "c1c3cc42b9be97acffa4fb3bcb785cd4f57aa914fbbdf8698b349c429ebf17c3@group.calendar.google.com"
+BATCH_SIZE = 50
 
 try:
     with open('filter_config.json', 'r') as filter_file:
@@ -221,14 +222,22 @@ def upload_calendar_to_google(new_events: List[Event]):
     events_result = service.events().list(calendarId=CALENDAR_ID, singleEvents=True, orderBy="startTime").execute()
     events = events_result.get("items", [])
 
+    batch = service.new_batch_http_request()
     for event in events:
         end_time = isoparse(event["end"]["dateTime"])
         event_tz = end_time.tzinfo
         
         if end_time >= datetime.now(tz=event_tz):
-            service.events().delete(calendarId=CALENDAR_ID, eventId=event["id"]).execute()
+            batch.add(service.events().delete(calendarId=CALENDAR_ID, eventId=event["id"]))
+        
+        if len(batch._order) == BATCH_SIZE:
+            batch.execute()
+            batch = service.new_batch_http_request()
+
+    batch.execute()
 
     # Add new events to the calendar
+    batch = service.new_batch_http_request()
     for event in new_events:
         event = {
             "summary": event.name,
@@ -236,7 +245,13 @@ def upload_calendar_to_google(new_events: List[Event]):
             "start": {"dateTime": event.begin.isoformat()},
             "end": {"dateTime": event.end.isoformat()},
         }
-        service.events().insert(calendarId=CALENDAR_ID, body=event).execute()
+        batch.add( service.events().insert(calendarId=CALENDAR_ID, body=event))
+
+        if len(batch._order) == BATCH_SIZE:
+            batch.execute()
+            batch = service.new_batch_http_request()
+
+    batch.execute()
 
     print("Calendar updated successfully!")
 
