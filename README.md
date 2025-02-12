@@ -51,14 +51,13 @@
 ### **3. Configure Google Calendar**
 1. Open [Google Calendar](https://calendar.google.com).
 2. Create a **new calendar**.
-3. Retrieve the **Calendar ID** from the calendar settings.
+3. Retrieve the **Calendar ID** from the newly created calendar's setting. Update the `CALENDAR_ID` in `utils.py` with your **Calendar ID**
    - Example **Calendar ID**:
      ```
      c1c3cc42b9be97acffa4fb3bcb785cd4f57aa914fbbdf8698b349c429ebf17c3@group.calendar.google.com
      ```
-4. Update the `CALENDAR_ID` in `utils.py` with your **Calendar ID**.
-5. Grant necessary permissions:
-    - In Google Calendar settings, go to **Share with specific people or groups**.
+5. Also at the your calendar's setting, grant necessary permissions:
+    - Visit **Share with specific people or groups** tab.
     - Add **<CLIENT_EMAIL>** and grant **"Make changes to events"** permission.
 
 ### **4. Update GitHub Workflow Configuration**
