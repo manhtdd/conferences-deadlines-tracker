@@ -24,7 +24,7 @@
 ### **2. Enable Google Calendar API**
 1. Visit the [Google Calendar API page](https://console.cloud.google.com/marketplace/product/google/calendar-json.googleapis.com?q=search&referrer=search&inv=1&invt=AbpKbg&authuser=1) and enable the API, and click manage.
 2. Navigate to the **Credentials** section.
-3. Create a **Service Account** (fill in *Service account ID*).
+3. Create a **Service Account** (fill in *Service account ID* then *Done*).
 4. At the **Service Accounts** tab, click in the newly created email. Visit the **Keys** tab, then **Add key**, **Create new key**. Select **JSON** option and create.
 5. The process will automatically download the key which will have a format like this:
 
