@@ -139,6 +139,7 @@
             "RAIE": true,
             "Research Track": true,
             "SE4ADS": true,
+            "SERP4IoT": false,
             "SESoS": true,
             "SRC - ACM Student Research Competition": true,
             "TechDebt Industry Track": true
@@ -250,6 +251,7 @@
     "content_filter": {
         "Abstract": true,
         "Abstract (mandatory)": true,
+        "Abstract Deadline": false,
         "Abstract Due": true,
         "Abstract Submission": true,
         "Abstract Submission Deadline": true,
@@ -376,6 +378,7 @@
         "Notifications": true,
         "Notifications to authors": true,
         "Paper Abstract Submission": true,
+        "Paper Deadline": false,
         "Paper Notification": true,
         "Paper Submission": true,
         "Paper Submission Deadline": true,
