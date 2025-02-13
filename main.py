@@ -57,7 +57,6 @@ with concurrent.futures.ThreadPoolExecutor() as executor:
 update_filter(events)
 
 # Sort events by date, conference, track, and content
-events = [event for event in events if check_filter(event["conference"], event["date"], event["track"], event["content"])]
 events = sorted(events, key=lambda x: (x["date"], x["conference"], x["track"], x["content"]))
 
 # Compare events with the old events
@@ -82,6 +81,8 @@ with open("results/conference_events.jsonl", "w") as f:
         f.write(json.dumps(event) + "\n")
 
 # Create the events in the calendar
+events = [event for event in events if check_filter(event["conference"], event["date"], event["track"], event["content"])]
+
 calendar = Calendar()
 for event in events:
     event = create_event(event["conference"], event["date"], event["track"], event["content"])
