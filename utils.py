@@ -77,7 +77,7 @@ def get_date(event_date):
 def create_event(event_conference, event_date, event_track, event_content):
     event = Event()
     
-    event.name = event_conference + " - " + event_content
+    event.name = event_conference + " - " + event_track + " - " + event_content
     event.description = f"""
         Conference: {event_conference}
         Date: {event_date}
