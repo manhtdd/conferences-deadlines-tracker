@@ -10,6 +10,7 @@
 - Filters events based on user-defined criteria in `filter_config.json`.
 - Uploads filtered events to a Google Calendar.
 - Automated daily updates using GitHub Actions.
+- Automated notifies when there are new conferences in the calendar or new items in the filter.
 
 ## Prerequisites
 
@@ -19,11 +20,14 @@
 
 ## Usage
 
-### **1. Enable Google Calendar API**
-1. Visit the [Google Calendar API page](https://console.cloud.google.com/marketplace/product/google/calendar-json.googleapis.com?q=search&referrer=search&inv=1&invt=AbpKbg&authuser=1) and enable the API.
+### **1. Fork this repository**
+
+### **2. Enable Google Calendar API**
+1. Visit the [Google Calendar API page](https://console.cloud.google.com/marketplace/product/google/calendar-json.googleapis.com?q=search&referrer=search&inv=1&invt=AbpKbg&authuser=1) and enable the API, and click manage.
 2. Navigate to the **Credentials** section.
-3. Create a **Service Account**, then generate a **JSON key** for the newly created account.
-4. Download the JSON key file, which will have a format like this:
+3. Create a **Service Account** (fill in *Service account ID* then *Done*).
+4. At the **Service Accounts** tab, click in the newly created email. Visit the **Keys** tab, then **Add key**, **Create new key**. Select **JSON** option and create.
+5. The process will automatically download the key which will have a format like this:
 
     ```json
     {
@@ -41,29 +45,30 @@
     }
     ```
 
-5. Add the contents of this JSON file as an **Actions Secret** in your GitHub repository with name **SERVICE_CLIENT**.
+5. Visit **Settings > Secrets and variables > Actions** of the repository on GitHub then create a **New repository secret** with:
+    - *Name*: **SERVICE_CLIENT**
+    - *Secret*: the content of the downloaded JSON file.
 
-### **2. Configure Google Calendar**
+### **3. Configure Google Calendar**
 1. Open [Google Calendar](https://calendar.google.com).
 2. Create a **new calendar**.
-3. Retrieve the **Calendar ID** from the calendar settings.
+3. Retrieve the **Calendar ID** from the newly created calendar's setting. Update the `CALENDAR_ID` in `utils.py` with your **Calendar ID**
    - Example **Calendar ID**:
      ```
      c1c3cc42b9be97acffa4fb3bcb785cd4f57aa914fbbdf8698b349c429ebf17c3@group.calendar.google.com
      ```
-4. Update the `CALENDAR_ID` in `utils.py` with your **Calendar ID**.
-5. Grant necessary permissions:
-    - In Google Calendar settings, go to **Share with specific people or groups**.
-    - Add **<CLIENT_EMAIL>** and grant **"Make changes to events"** permission.
+5. Also at the your calendar's setting, grant necessary permissions:
+    - Visit **Share with specific people or groups** tab.
+    - Add **<CLIENT_EMAIL>** (from the .json file in step 2) and grant **"Make changes to events"** permission.
 
-### **3. Update GitHub Workflow Configuration**
-1. Modify the `main.yaml` file:
+### **4. Update GitHub Workflow Configuration**
+1. Modify `.github/workflows/main.yml`:
     - Update the **user name** and **user email** to match your GitHub account.
 2. Ensure **Read and write permissions** are enabled:
-    - Go to **Settings → Actions → General** in your GitHub repository.
+    - Go to **Settings > Actions > General** in your GitHub repository.
     - Set **Workflow permissions** to **Read and write permissions**.
 
-### **4. Update `filter.json` (Optional)**
+### **5. Update `filter.json` (Optional)**
 
 The `filter.json` file allows you to customize event filtering based on specific criteria.
 
@@ -74,7 +79,7 @@ The `filter.json` file allows you to customize event filtering based on specific
 This step is optional, but it helps refine the events that get added to the `.ics` file and Google Calendar.
 
 
-### **5. Test the Setup**
+### **6. Test the Setup**
 To verify everything is set up correctly:
 1. Navigate to the **Actions** tab in your GitHub repository.
 2. Manually trigger a **Daily Runs** workflow.

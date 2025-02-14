@@ -4,9 +4,6 @@ on:
   schedule:
     - cron: '0 0 * * *'  # Runs every day at midnight UTC
   workflow_dispatch:  # Allows manual triggering
-  push:
-    branches:
-      - main
 
 jobs:
   execute-code:
@@ -43,8 +40,27 @@ jobs:
 
       - name: Commit changes
         run: |
-          git commit -m "Update results"
+          git commit -m "🚀 Daily Run: Update results" || echo "No changes to commit"
+
+      - name: Get Latest Commit SHA
+        run: echo "LATEST_COMMIT=$(git rev-parse HEAD)" >> $GITHUB_ENV
 
       - name: Push changes
         run: |
-          git push origin main
+          git push origin || echo "No changes to push"
+
+      - name: Notify the user via commit comment
+        if: ${{ hashFiles('notification.log') != '' }}
+        uses: actions/github-script@v6
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const fs = require('fs');
+            const logContent = fs.existsSync('notification.log') ? fs.readFileSync('notification.log', 'utf8') : "No details available.";
+            
+            github.rest.repos.createCommitComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              commit_sha: process.env.LATEST_COMMIT,
+              body: logContent
+            });

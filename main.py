@@ -56,22 +56,40 @@ with concurrent.futures.ThreadPoolExecutor() as executor:
 # Update the filter.json file with the new events
 update_filter(events)
 
+# Sort events by date, conference, track, and content
+events = sorted(events, key=lambda x: (x["date"], x["conference"], x["track"], x["content"]))
+
+# Compare events with the old events
+if os.path.exists("results/conference_events.jsonl"):
+    with open("results/conference_events.jsonl", "r") as f:
+        old_events = [json.loads(line) for line in f.readlines()]
+
+        if old_events != events:
+            newly_appear_conferences = set()
+            for event in events:
+                if event not in old_events:
+                    newly_appear_conferences.add(event["conference"])
+
+            if newly_appear_conferences:
+                log_notification(f"New events found in the following conferences: {', '.join(newly_appear_conferences)}")
+
+
+# Save the new events to a file
+os.makedirs("results", exist_ok=True)
+with open("results/conference_events.jsonl", "w") as f:
+    for event in events:
+        f.write(json.dumps(event) + "\n")
+
 # Create the events in the calendar
+events = [event for event in events if check_filter(event["conference"], event["date"], event["track"], event["content"])]
+
 calendar = Calendar()
 for event in events:
-    event_conference = event["conference"]
-    event_date = event["date"]
-    event_track = event["track"]
-    event_content = event["content"]
-
-    if check_filter(event_conference, event_date, event_track, event_content):
-        event = create_event(event_conference, event_date, event_track, event_content)
-        calendar.events.add(event)
+    event = create_event(event["conference"], event["date"], event["track"], event["content"])
+    calendar.events.add(event)
 
 # Save the conference events to a file
-current_date = datetime.now().strftime("%Y-%m-%d")
-os.makedirs("results", exist_ok=True)
-with open(f"results/{current_date}.ics", "w") as f:
+with open(f"results/conference_events.ics", "w") as f:
     f.writelines(calendar)
 
 # Upload the calendar to Google Calendar
