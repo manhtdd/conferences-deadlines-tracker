@@ -80,6 +80,7 @@
 {"conference": "ESEIW 2025", "date": "Fri 27 Jun 2025", "track": "IDoESE - Doctoral Symposium", "content": "Camera-Ready"}
 {"conference": "ICFP/SPLASH 2025", "date": "Fri 27 Jun 2025", "track": "ICFP  Papers", "content": "Final Decision Notification"}
 {"conference": "ICFP/SPLASH 2025", "date": "Fri 27 Jun 2025", "track": "SPLASH OOPSLA Artifacts", "content": "Submission Round 2"}
+{"conference": "FSE 2025", "date": "Fri 28 Feb 2025", "track": "2030 Software Engineering", "content": "Submission Deadline"}
 {"conference": "FSE 2025", "date": "Fri 28 Feb 2025", "track": "PROMISE", "content": "Submissions Due"}
 {"conference": "FSE 2025", "date": "Fri 28 Feb 2025", "track": "Posters", "content": "Submission deadline"}
 {"conference": "ICFP/SPLASH 2025", "date": "Fri 28 Feb 2025", "track": "SPLASH OOPSLA", "content": "Camera Ready R1"}
@@ -252,7 +253,6 @@
 {"conference": "ICSE 2025", "date": "Sat 15 Mar 2025", "track": "CHASE Doctoral and Early Career Symposium (DECS)", "content": "Final copy of submission due"}
 {"conference": "PROFES 2025", "date": "Sat 19 Apr 2025", "track": "Workshops and Tutorials", "content": "Tutorial proposal notification"}
 {"conference": "PROFES 2025", "date": "Sat 19 Apr 2025", "track": "Workshops and Tutorials", "content": "Workshop proposal notification"}
-{"conference": "ICSE 2025", "date": "Sat 22 Feb 2025", "track": "TechDebt Industry Track", "content": "Submission deadline for talks"}
 {"conference": "ICT4S 2025", "date": "Sat 22 Mar 2025", "track": "Research Papers", "content": "Paper acceptance notification new date"}
 {"conference": "ISSTA 2025", "date": "Sat 28 Jun 2025", "track": "EXPRESS", "content": "Workshop Date"}
 {"conference": "ICSE 2025", "date": "Sat 3 May 2025", "track": "EnCyCriS", "content": "Workshop Session"}
@@ -308,7 +308,6 @@
 {"conference": "FSE 2025", "date": "Sun 20 Apr 2025", "track": "Internetware Research Track", "content": "Camera-Ready Version"}
 {"conference": "FSE 2025", "date": "Sun 20 Apr 2025", "track": "Internetware Tool Demonstration Track", "content": "Camera-Ready Submission Deadline"}
 {"conference": "ICT4S 2025", "date": "Sun 20 Apr 2025", "track": "Doctoral Symposium", "content": "Doctoral Symposium acceptance notification"}
-{"conference": "FSE 2025", "date": "Sun 23 Feb 2025", "track": "2030 Software Engineering", "content": "Submission Deadline"}
 {"conference": "STAF 2025", "date": "Sun 23 Feb 2025", "track": "ECMFA", "content": "Round 1 - Submissions of Revision"}
 {"conference": "ICSE 2025", "date": "Sun 27 - Mon 28 Apr 2025", "track": "CHASE Doctoral and Early Career Symposium (DECS)", "content": "Participate in CHASE conference"}
 {"conference": "ICSE 2025", "date": "Sun 27 - Mon 28 Apr 2025", "track": "FormaliSE Research Track", "content": "FormaliSE 2025"}
