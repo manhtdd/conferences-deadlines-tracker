@@ -2,1018 +2,1011 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DESCRIPTION:\n        Conference: FSE 2025\n        Date: Thu 24 Apr 2025\n        Track: Workshops\n    
-DTEND:20250425T120000Z
-DTSTART:20250424T120000Z
-SUMMARY:FSE 2025 - Workshops - Camera-ready deadline
-UID:0c2bd7f2-bb28-4877-836f-ca9265d751c0@0c2b.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: EASE 2025\n        Date: Sun 27 Apr 2025\n        Track: Posters and Vision\n    
-DTEND:20250428T120000Z
-DTSTART:20250427T120000Z
-SUMMARY:EASE 2025 - Posters and Vision - Camera Ready Deadline
-UID:100cdec9-c350-4017-b017-1f0b6eebf1d4@100c.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: FSE 2025\n        Date: Thu 24 Apr 2025\n        Track: AI IDE\n    
-DTEND:20250425T120000Z
-DTSTART:20250424T120000Z
-SUMMARY:FSE 2025 - AI IDE - Camera-ready
-UID:c383514c-10dc-4bc1-8aef-f82ec4c77c7f@c383.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: EASE 2025\n        Date: Fri 20 Jun 2025\n        Track: LEARNER\n    
-DTEND:20250621T120000Z
-DTSTART:20250620T120000Z
-SUMMARY:EASE 2025 - LEARNER - Workshop Date
-UID:28ad7281-e448-42f0-8c5b-91f3c2987a24@28ad.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: FSE 2025\n        Date: Tue 25 Mar 2025\n        Track: Industry Papers\n    
-DTEND:20250326T120000Z
-DTSTART:20250325T120000Z
-SUMMARY:FSE 2025 - Industry Papers - Author notification
-UID:5bab3e65-5030-4ea9-839f-73ec464ac0ea@5bab.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: EASE 2025\n        Date: Sun 27 Apr 2025\n        Track: AI Models / Data\n    
-DTEND:20250428T120000Z
-DTSTART:20250427T120000Z
-SUMMARY:EASE 2025 - AI Models / Data - Camera Ready Deadline
-UID:08d5ab88-9288-4254-be46-16241e249a28@08d5.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: ISSTA 2025\n        Date: Thu 10 Apr 2025\n        Track: Doctoral Symposium\n    
-DTEND:20250411T120000Z
-DTSTART:20250410T120000Z
-SUMMARY:ISSTA 2025 - Doctoral Symposium - Notification
-UID:aa3c5b00-045c-47b3-acd2-45129b9b0b8d@aa3c.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: EASE 2025\n        Date: Mon 5 May 2025\n        Track: International Workshop on Software Security Engineering\n    
-DTEND:20250506T120000Z
-DTSTART:20250505T120000Z
-SUMMARY:EASE 2025 - International Workshop on Software Security Engineering - Early registration
-UID:c170e98d-0d2d-45d0-8e58-af835b24d022@c170.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: FSE 2025\n        Date: Mon 17 Mar 2025\n        Track: Internetware Tool Demonstration Track\n    
-DTEND:20250318T120000Z
-DTSTART:20250317T120000Z
-SUMMARY:FSE 2025 - Internetware Tool Demonstration Track - Submission Deadline
-UID:73984329-3c38-428b-b783-ee195adcb1b1@7398.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: ISSTA 2025\n        Date: Thu 27 Feb 2025\n        Track: Research Papers\n    
-DTEND:20250228T120000Z
-DTSTART:20250227T120000Z
-SUMMARY:ISSTA 2025 - Research Papers - Revised Manuscript Submissions (Major Revisions Only)
-UID:420118a4-bb25-4f76-952c-bf7076355d1c@4201.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: ICSME 2025\n        Date: Mon 7 Jul 2025\n        Track: Tool Demonstration Track\n    
-DTEND:20250708T120000Z
-DTSTART:20250707T120000Z
-SUMMARY:ICSME 2025 - Tool Demonstration Track - Author Notification
-UID:25007691-fe62-435a-9189-b1b5c2b7a425@2500.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: EASE 2025\n        Date: Wed 12 Mar 2025\n        Track: Learnings/Reflections of Evaluation and Assessment projects in Software Engineering\n    
-DTEND:20250313T120000Z
-DTSTART:20250312T120000Z
-SUMMARY:EASE 2025 - Learnings/Reflections of Evaluation and Assessment projects in Software Engineering - Submission Deadline
-UID:4a616d01-0db7-4cfc-9983-2c43ff830716@4a61.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: FSE 2025\n        Date: Sun 20 Apr 2025\n        Track: Internetware Research Track\n    
-DTEND:20250421T120000Z
-DTSTART:20250420T120000Z
-SUMMARY:FSE 2025 - Internetware Research Track - Camera-Ready Version
-UID:4ca34f6f-b0a4-437c-afaf-4901719644f5@4ca3.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: EASE 2025\n        Date: Sun 13 Apr 2025\n        Track: AI Models / Data\n    
-DTEND:20250414T120000Z
-DTSTART:20250413T120000Z
-SUMMARY:EASE 2025 - AI Models / Data - Notification Deadline
-UID:554b17f0-e2b7-4e01-ad4c-fd84e1e7caf6@554b.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: FSE 2025\n        Date: Thu 3 Apr 2025\n        Track: Student Volunteers\n    
-DTEND:20250404T120000Z
-DTSTART:20250403T120000Z
-SUMMARY:FSE 2025 - Student Volunteers - Submission deadline
-UID:b3028d24-079e-4363-94ce-e932473e743b@b302.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: ICSME 2025\n        Date: Sun 18 May 2025\n        Track: Industry Track\n    
-DTEND:20250519T120000Z
-DTSTART:20250518T120000Z
-SUMMARY:ICSME 2025 - Industry Track - Paper Submission
-UID:053e1279-a2ea-45ee-87a8-6a703238288c@053e.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: ICSME 2025\n        Date: Sun 11 May 2025\n        Track: Industry Track\n    
-DTEND:20250512T120000Z
-DTSTART:20250511T120000Z
-SUMMARY:ICSME 2025 - Industry Track - Paper Abstract Submission
-UID:529eaefc-bc01-4920-b437-d4bad031d3ea@529e.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: FSE 2025\n        Date: Mon 21 Apr 2025\n        Track: Industry Papers\n    
-DTEND:20250422T120000Z
-DTSTART:20250421T120000Z
-SUMMARY:FSE 2025 - Industry Papers - Camera-ready deadline
-UID:b12a2b73-1d9d-462e-a77a-f41c7a3696d6@b12a.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: FSE 2025\n        Date: Sat 1 Mar 2025\n        Track: Internetware Research Track\n    
-DTEND:20250302T120000Z
-DTSTART:20250301T120000Z
-SUMMARY:FSE 2025 - Internetware Research Track - Submission Deadline
-UID:4c4b0f0d-6459-462e-8cca-324c577f8f07@4c4b.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: ISSTA 2025\n        Date: Fri 16 May 2025\n        Track: Artifact Evaluation\n    
-DTEND:20250517T120000Z
-DTSTART:20250516T120000Z
-SUMMARY:ISSTA 2025 - Artifact Evaluation - Artifact Notification
-UID:51a9f553-de5b-4226-a9b7-c0cf54efce52@51a9.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: ICSE 2025\n        Date: Sat 3 May 2025\n        Track: EnCyCriS\n    
-DTEND:20250504T120000Z
-DTSTART:20250503T120000Z
-SUMMARY:ICSE 2025 - EnCyCriS - Workshop Session
-UID:59cf6e0b-9990-41e4-a66d-6fa53cf7c9a6@59cf.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: ISSTA 2025\n        Date: Thu 24 Apr 2025\n        Track: Doctoral Symposium\n    
-DTEND:20250425T120000Z
-DTSTART:20250424T120000Z
-SUMMARY:ISSTA 2025 - Doctoral Symposium - Camera-Ready Version
-UID:e5068787-7dc0-48c2-8682-47f033c3850b@e506.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: FSE 2025\n        Date: Mon 14 Apr 2025\n        Track: Tutorials\n    
-DTEND:20250415T120000Z
-DTSTART:20250414T120000Z
-SUMMARY:FSE 2025 - Tutorials - Camera-ready deadline
-UID:3b424f9d-60e4-4ae2-9817-bfae5daca0ac@3b42.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: EASE 2025\n        Date: Sun 16 Mar 2025\n        Track: Posters and Vision\n    
-DTEND:20250317T120000Z
-DTSTART:20250316T120000Z
-SUMMARY:EASE 2025 - Posters and Vision - Submission Deadline
-UID:0bfd4ab2-eb9e-42eb-9967-d1581fc011e5@0bfd.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: ICSE 2025\n        Date: Sat 3 May 2025\n        Track: Gamify\n    
-DTEND:20250504T120000Z
-DTSTART:20250503T120000Z
-SUMMARY:ICSE 2025 - Gamify - Workshop Day
-UID:3ce2c24f-2eee-456c-ac07-31561e91a6b5@3ce2.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: EASE 2025\n        Date: Thu 20 Mar 2025\n        Track: DevOps Quality Management\n    
-DTEND:20250321T120000Z
-DTSTART:20250320T120000Z
-SUMMARY:EASE 2025 - DevOps Quality Management - Submissions Due (dummy)
-UID:dd1ffb75-ca5a-4fcc-b188-7861d126423c@dd1f.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: ICSE 2025\n        Date: Sat 3 May 2025\n        Track: SESoS\n    
-DTEND:20250504T120000Z
-DTSTART:20250503T120000Z
-SUMMARY:ICSE 2025 - SESoS - Workshop date
-UID:66cf52fd-7099-4f7a-81ed-5f562668a8d8@66cf.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: ISSTA 2025\n        Date: Thu 24 Apr 2025\n        Track: Tool Demonstrations\n    
-DTEND:20250425T120000Z
-DTSTART:20250424T120000Z
-SUMMARY:ISSTA 2025 - Tool Demonstrations - Camera-Ready Deadline
-UID:6e1507d2-565e-4ca6-9139-13a673fc00ef@6e15.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: EASE 2025\n        Date: Sun 16 Mar 2025\n        Track: AI Models / Data\n    
-DTEND:20250317T120000Z
-DTSTART:20250316T120000Z
-SUMMARY:EASE 2025 - AI Models / Data - Submission Deadline
-UID:db368dac-4841-4001-b082-97f3bcb4a0c3@db36.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: FSE 2025\n        Date: Fri 28 Feb 2025\n        Track: Posters\n    
-DTEND:20250301T120000Z
-DTSTART:20250228T120000Z
-SUMMARY:FSE 2025 - Posters - Submission deadline
-UID:3de778c9-51c0-454b-b0f5-753df2552eb2@3de7.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: FSE 2025\n        Date: Thu 10 Apr 2025\n        Track: Student Volunteers\n    
-DTEND:20250411T120000Z
-DTSTART:20250410T120000Z
-SUMMARY:FSE 2025 - Student Volunteers - Notification
-UID:19880971-a438-4dc1-b48c-66fe08ef8437@1988.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: EASE 2025\n        Date: Sun 27 Apr 2025\n        Track: Industry Papers\n    
-DTEND:20250428T120000Z
-DTSTART:20250427T120000Z
-SUMMARY:EASE 2025 - Industry Papers - Camera Ready Deadline
-UID:b44cb23f-c641-4f7e-8118-fa01acc19749@b44c.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: ICSME 2025\n        Date: Sun 27 Jul 2025\n        Track: Industry Track\n    
-DTEND:20250728T120000Z
-DTSTART:20250727T120000Z
-SUMMARY:ICSME 2025 - Industry Track - Camera-ready Submission for Papers and 1-Pager Talks
-UID:38bbf230-5a59-40e4-bcda-d4c5e6533510@38bb.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: ICSME 2025\n        Date: Fri 11 Jul 2025\n        Track: NIER Track\n    
+DESCRIPTION:\n        Conference: ICSME 2025\n        Date: Fri 11 Jul 2025\n        Track: Doctoral Symposium\n    
 DTEND:20250712T120000Z
 DTSTART:20250711T120000Z
-SUMMARY:ICSME 2025 - NIER Track - Author Notification
-UID:f3fa3b32-af9f-4603-81c3-47f531e04cbb@f3fa.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: FSE 2025\n        Date: Mon 17 Mar 2025\n        Track: Internetware New Idea Track\n    
-DTEND:20250318T120000Z
-DTSTART:20250317T120000Z
-SUMMARY:FSE 2025 - Internetware New Idea Track - New Idea Track Submissions Deadline
-UID:83fc5c97-753e-4c03-9d6f-48c412484235@83fc.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: ICSME 2025\n        Date: Thu 5 Jun 2025\n        Track: Research Papers Track\n    
-DTEND:20250606T120000Z
-DTSTART:20250605T120000Z
-SUMMARY:ICSME 2025 - Research Papers Track - Final Notification
-UID:69c60350-e6c9-40c2-8b8b-f988d23eab71@69c6.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: FSE 2025\n        Date: Thu 24 Apr 2025\n        Track: Research Papers\n    
-DTEND:20250425T120000Z
-DTSTART:20250424T120000Z
-SUMMARY:FSE 2025 - Research Papers - Camera ready (major revisions)
-UID:92a5412a-f13f-4a09-947c-8bcbe585874f@92a5.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: ISSTA 2025\n        Date: Thu 20 Mar 2025\n        Track: Tool Demonstrations\n    
-DTEND:20250321T120000Z
-DTSTART:20250320T120000Z
-SUMMARY:ISSTA 2025 - Tool Demonstrations - Submission Deadline
-UID:42402ab8-9b9b-4097-a675-24d8f654762a@4240.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: EASE 2025\n        Date: Sun 16 Mar 2025\n        Track: Industry Papers\n    
-DTEND:20250317T120000Z
-DTSTART:20250316T120000Z
-SUMMARY:EASE 2025 - Industry Papers - Submission Deadline
-UID:2ea26449-5923-4b39-b263-da1f90a60230@2ea2.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: ICSME 2025\n        Date: Thu 6 Mar 2025\n        Track: Research Papers Track\n    
-DTEND:20250307T120000Z
-DTSTART:20250306T120000Z
-SUMMARY:ICSME 2025 - Research Papers Track - Abstract Submission
-UID:3da3667b-9174-4965-8dca-d33e354350ed@3da3.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: FSE 2025\n        Date: Thu 10 Apr 2025\n        Track: AI IDE\n    
-DTEND:20250411T120000Z
-DTSTART:20250410T120000Z
-SUMMARY:FSE 2025 - AI IDE - Notification
-UID:f1b3e715-7b2e-468f-8aa0-bf5f572e4ce0@f1b3.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: EASE 2025\n        Date: Sun 16 Mar 2025\n        Track: Short Papers\, Emerging Results\n    
-DTEND:20250317T120000Z
-DTSTART:20250316T120000Z
-SUMMARY:EASE 2025 - Short Papers\, Emerging Results - Full Paper Submission Deadline
-UID:9a2390cc-444d-424f-9cfe-2a74e1a6e368@9a23.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: FSE 2025\n        Date: Thu 24 Apr 2025\n        Track: Demonstrations\n    
-DTEND:20250425T120000Z
-DTSTART:20250424T120000Z
-SUMMARY:FSE 2025 - Demonstrations - Camera-ready deadline
-UID:63752ba2-d0e0-4cab-b6fa-b6abb8fa8351@6375.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: EASE 2025\n        Date: Sun 16 Mar 2025\n        Track: International Workshop on Software Security Engineering\n    
-DTEND:20250317T120000Z
-DTSTART:20250316T120000Z
-SUMMARY:EASE 2025 - International Workshop on Software Security Engineering - Papers submission
-UID:5544e726-681d-466e-a94c-0dee62fb7066@5544.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: ICSE 2025\n        Date: Fri 14 Mar 2025\n        Track: MSR  Awards\n    
-DTEND:20250315T120000Z
-DTSTART:20250314T120000Z
-SUMMARY:ICSE 2025 - MSR  Awards - Notification
-UID:ec030c5e-61a3-4cb8-9f21-3c0d8526415d@ec03.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: ICSE 2025\n        Date: Tue 29 Apr 2025\n        Track: SE4ADS\n    
-DTEND:20250430T120000Z
-DTSTART:20250429T120000Z
-SUMMARY:ICSE 2025 - SE4ADS - Workshop Date
-UID:227a900f-05a8-4aea-9ea7-585e3de205cf@227a.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: EASE 2025\n        Date: Sun 27 Apr 2025\n        Track: Tutorials\n    
-DTEND:20250428T120000Z
-DTSTART:20250427T120000Z
-SUMMARY:EASE 2025 - Tutorials - Camera Ready Deadline
-UID:fdacdec5-ac79-4bed-bc84-2049ec6c2f62@fdac.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: ICSME 2025\n        Date: Wed 7 May 2025\n        Track: Research Papers Track\n    
-DTEND:20250508T120000Z
-DTSTART:20250507T120000Z
-SUMMARY:ICSME 2025 - Research Papers Track - Early Decisions Notification
-UID:ec9e36c4-ec8b-40d3-ae69-021297610617@ec9e.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: EASE 2025\n        Date: Sun 13 Apr 2025\n        Track: Industry Papers\n    
-DTEND:20250414T120000Z
-DTSTART:20250413T120000Z
-SUMMARY:EASE 2025 - Industry Papers - Notification Deadline
-UID:0c82825e-d2de-4fcc-a57a-5ffeeb781d3f@0c82.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: ASE 2025\n        Date: Tue 22 - Fri 25 Jul 2025\n        Track: Research Papers\n    
-DTEND:20250726T120000Z
-DTSTART:20250722T120000Z
-SUMMARY:ASE 2025 - Research Papers - Author Response
-UID:76c1b798-6bec-4369-99b4-cb041511351d@76c1.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: FSE 2025\n        Date: Fri 4 Apr 2025\n        Track: Journal First\n    
-DTEND:20250405T120000Z
-DTSTART:20250404T120000Z
-SUMMARY:FSE 2025 - Journal First - Author notification
-UID:c6d508bc-19e5-4780-aecd-a38904650222@c6d5.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: FSE 2025\n        Date: Fri 14 Mar 2025\n        Track: Ideas\, Visions and Reflections\n    
-DTEND:20250315T120000Z
-DTSTART:20250314T120000Z
-SUMMARY:FSE 2025 - Ideas\, Visions and Reflections - Author notification
-UID:9c3ce994-f1a0-44fd-bb5a-85c9c0e52cb1@9c3c.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: FSE 2025\n        Date: Tue 1 Apr 2025\n        Track: Research Papers\n    
-DTEND:20250402T120000Z
-DTSTART:20250401T120000Z
-SUMMARY:FSE 2025 - Research Papers - Final notification for major revisions
-UID:caddefaf-0870-49b1-99d1-60b459bf4600@cadd.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: EASE 2025\n        Date: Sun 13 Apr 2025\n        Track: Tutorials\n    
-DTEND:20250414T120000Z
-DTSTART:20250413T120000Z
-SUMMARY:EASE 2025 - Tutorials - Notification Deadline
-UID:5a83a0d1-281e-49d5-8ea9-32dd5e269b31@5a83.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: EASE 2025\n        Date: Fri 2 May 2025\n        Track: Research Papers\n    
-DTEND:20250503T120000Z
-DTSTART:20250502T120000Z
-SUMMARY:EASE 2025 - Research Papers - Early Registration Deadline
-UID:5f90fcef-0876-4e1d-85cf-664597b78a48@5f90.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: FSE 2025\n        Date: Tue 25 Feb 2025\n        Track: Research Papers\n    
-DTEND:20250226T120000Z
-DTSTART:20250225T120000Z
-SUMMARY:FSE 2025 - Research Papers - Submission for major-revision papers
-UID:58d1a215-796b-4231-bfc5-b8519ce5eb2b@58d1.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: ICSE 2025\n        Date: Thu 27 Feb 2025\n        Track: Artifact Evaluation\n    
-DTEND:20250228T120000Z
-DTSTART:20250227T120000Z
-SUMMARY:ICSE 2025 - Artifact Evaluation - Notifications
-UID:d3915406-d3ad-400d-9f63-5eb32db66956@d391.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: EASE 2025\n        Date: Sun 16 Mar 2025\n        Track: Tutorials\n    
-DTEND:20250317T120000Z
-DTSTART:20250316T120000Z
-SUMMARY:EASE 2025 - Tutorials - Submission Deadline
-UID:9653c8b0-6683-4bbe-8834-d3ec4928f2b2@9653.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: EASE 2025\n        Date: Sun 9 Mar 2025\n        Track: Industry Papers\n    
-DTEND:20250310T120000Z
-DTSTART:20250309T120000Z
-SUMMARY:EASE 2025 - Industry Papers - Abstract Submission Deadline
-UID:36e70b98-2d54-4af8-b2b1-3e6b236a291d@36e7.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: ICSE 2025\n        Date: Sat 3 May 2025\n        Track: NSE\n    
-DTEND:20250504T120000Z
-DTSTART:20250503T120000Z
-SUMMARY:ICSE 2025 - NSE - Workshop Day
-UID:d5df1c5d-74e2-4981-84c3-8ebf140baf77@d5df.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: ICSE 2025\n        Date: Mon 28 - Tue 29 Apr 2025\n        Track: AST\n    
-DTEND:20250430T120000Z
-DTSTART:20250428T120000Z
-SUMMARY:ICSE 2025 - AST - Conference
-UID:986a8a2f-1597-4ff3-af9d-9030e944892d@986a.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: ICSE 2026\n        Date: Fri 14 Mar 2025 23:59\n        Track: Research Track\n    
-DTEND:20250315T120000Z
-DTSTART:20250314T120000Z
-SUMMARY:ICSE 2026 - Research Track - First Cycle: Submission
-UID:c61e6bff-7d28-4bd2-8125-d5a8338ea83e@c61e.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: FSE 2025\n        Date: Mon 24 Mar 2025\n        Track: Student Research Competition\n    
-DTEND:20250325T120000Z
-DTSTART:20250324T120000Z
-SUMMARY:FSE 2025 - Student Research Competition - Notification
-UID:4a4fecea-15ff-4ecc-b3be-3f2fe7732cf6@4a4f.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: EASE 2025\n        Date: Fri 20 Jun 2025\n        Track: EQUISA\n    
-DTEND:20250621T120000Z
-DTSTART:20250620T120000Z
-SUMMARY:EASE 2025 - EQUISA - Workshop date
-UID:13b572c4-2408-4bdb-9951-5c8198dc59c9@13b5.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: FSE 2025\n        Date: Mon 24 Mar 2025\n        Track: PROMISE\n    
-DTEND:20250325T120000Z
-DTSTART:20250324T120000Z
-SUMMARY:FSE 2025 - PROMISE - Author notification
-UID:5242da38-8353-45a5-b129-56c2bf072110@5242.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: ICSME 2025\n        Date: Sun 27 Jul 2025\n        Track: Tool Demonstration Track\n    
-DTEND:20250728T120000Z
-DTSTART:20250727T120000Z
-SUMMARY:ICSME 2025 - Tool Demonstration Track - Camera-ready Submission
-UID:98ac4d77-7826-41b5-90ae-c096b293f6bb@98ac.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: ICSME 2025\n        Date: Thu 29 May 2025\n        Track: Tool Demonstration Track\n    
-DTEND:20250530T120000Z
-DTSTART:20250529T120000Z
-SUMMARY:ICSME 2025 - Tool Demonstration Track - Paper Submission
-UID:74672cf0-4075-4483-b870-54e2a5de7641@7467.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: FSE 2025\n        Date: Thu 24 Apr 2025\n        Track: Doctoral Symposium\n    
-DTEND:20250425T120000Z
-DTSTART:20250424T120000Z
-SUMMARY:FSE 2025 - Doctoral Symposium - Camera-ready deadline
-UID:39ea1502-d3ce-4b0b-944c-36d649281403@39ea.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: EASE 2025\n        Date: Sun 27 Apr 2025\n        Track: Short Papers\, Emerging Results\n    
-DTEND:20250428T120000Z
-DTSTART:20250427T120000Z
-SUMMARY:EASE 2025 - Short Papers\, Emerging Results - Camera Ready Deadline
-UID:c09cc47a-f96a-4fdd-a9ee-c36f5c4d15cc@c09c.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: FSE 2025\n        Date: Thu 24 Apr 2025\n        Track: Student Research Competition\n    
-DTEND:20250425T120000Z
-DTSTART:20250424T120000Z
-SUMMARY:FSE 2025 - Student Research Competition - Camera-ready version
-UID:c1b612f1-2c59-4ddc-a9b1-6887850af992@c1b6.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: ICSME 2025\n        Date: Thu 5 Jun 2025\n        Track: Industry Track\n    
-DTEND:20250606T120000Z
-DTSTART:20250605T120000Z
-SUMMARY:ICSME 2025 - Industry Track - Talk Proposal Submission
-UID:de10a994-79ca-4d76-82a0-567e4acae3ba@de10.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: ICSE 2026\n        Date: Fri 18 Jul 2025 23:59\n        Track: Research Track\n    
-DTEND:20250719T120000Z
-DTSTART:20250718T120000Z
-SUMMARY:ICSE 2026 - Research Track - Second Cycle: Submission
-UID:8a30f0a7-7177-4750-a884-13f205b978af@8a30.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: EASE 2025\n        Date: Sun 27 Apr 2025\n        Track: International Workshop on Software Security Engineering\n    
-DTEND:20250428T120000Z
-DTSTART:20250427T120000Z
-SUMMARY:EASE 2025 - International Workshop on Software Security Engineering - Camera Ready Deadline
-UID:1191ba6b-332f-42e2-9d0b-ddbf0e3b0918@1191.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: ICSME 2025\n        Date: Fri 6 Jun 2025\n        Track: Journal First Track\n    
-DTEND:20250607T120000Z
-DTSTART:20250606T120000Z
-SUMMARY:ICSME 2025 - Journal First Track - Paper Submission
-UID:7a1c1536-dde3-4594-9f80-5cad07dc179b@7a1c.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: ICSE 2026\n        Date: Fri 20 Jun 2025 23:59\n        Track: Research Track\n    
-DTEND:20250621T120000Z
-DTSTART:20250620T120000Z
-SUMMARY:ICSE 2026 - Research Track - First Cycle: Notification
-UID:fb4162be-2da6-4eb0-a9f3-51b605e7e4bd@fb41.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: FSE 2025\n        Date: Mon 7 Apr 2025\n        Track: Internetware New Idea Track\n    
-DTEND:20250408T120000Z
-DTSTART:20250407T120000Z
-SUMMARY:FSE 2025 - Internetware New Idea Track - New Idea Track Acceptance Notification
-UID:61d524b4-25ae-4590-836d-6fe4ad469647@61d5.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: FSE 2025\n        Date: Sun 30 Mar 2025\n        Track: Internetware Research Track\n    
-DTEND:20250331T120000Z
-DTSTART:20250330T120000Z
-SUMMARY:FSE 2025 - Internetware Research Track - Notification of Acceptance
-UID:53601e61-6c8a-46eb-baec-4a62fa4a8cd0@5360.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: ICSE 2025\n        Date: Sun 27 Apr 20:51 - Sat 3 May 12:00 2025\n        Track: SRC - ACM Student Research Competition\n    
-DTEND:20250504T000100Z
-DTSTART:20250428T085100Z
-SUMMARY:ICSE 2025 - SRC - ACM Student Research Competition - SRC Competition
-UID:c0ef71cc-aa75-4a55-b010-f2354975a410@c0ef.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: EASE 2025\n        Date: Mon 10 Mar 2025\n        Track: LEARNER\n    
-DTEND:20250311T120000Z
-DTSTART:20250310T120000Z
-SUMMARY:EASE 2025 - LEARNER - Paper Submission
-UID:7474dea7-b503-43c7-9425-035379e017c0@7474.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: ASE 2025\n        Date: Fri 30 May 2025\n        Track: Research Papers\n    
-DTEND:20250531T120000Z
-DTSTART:20250530T120000Z
-SUMMARY:ASE 2025 - Research Papers - Paper Submission
-UID:d0a79c23-4222-41e9-affc-72fc5ec73dce@d0a7.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: EASE 2025\n        Date: Sun 13 Apr 2025\n        Track: International Workshop on Software Security Engineering\n    
-DTEND:20250414T120000Z
-DTSTART:20250413T120000Z
-SUMMARY:EASE 2025 - International Workshop on Software Security Engineering - Notifications to authors
-UID:5b24ecf4-fcce-4039-a5f6-4206e1d039a9@5b24.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: EASE 2025\n        Date: Sun 27 Apr 2025\n        Track: LEARNER\n    
-DTEND:20250428T120000Z
-DTSTART:20250427T120000Z
-SUMMARY:EASE 2025 - LEARNER - Camera Ready Deadline
-UID:7f4a093c-d6be-4214-8afe-300a421c754a@7f4a.org
+SUMMARY:ICSME 2025 - Doctoral Symposium - Author Notification
+UID:ab8b23ad-004e-4dd0-9b98-621f55a2a3e7@ab8b.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:\n        Conference: ICSE 2026\n        Date: Fri 11 Jul 2025 23:59\n        Track: Research Track\n    
 DTEND:20250712T120000Z
 DTSTART:20250711T120000Z
 SUMMARY:ICSE 2026 - Research Track - Second Cycle: (Mandatory) Abstract
-UID:1108000a-0271-42d7-a055-88673c320e9a@1108.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: FSE 2025\n        Date: Sun 20 Apr 2025\n        Track: Internetware New Idea Track\n    
-DTEND:20250421T120000Z
-DTSTART:20250420T120000Z
-SUMMARY:FSE 2025 - Internetware New Idea Track - New Idea Track Camera Ready
-UID:2b53b0bf-42bd-41ab-8fdf-019f4eb314f3@2b53.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: ICSE 2025\n        Date: Sun 27 - Mon 28 Apr 2025\n        Track: FormaliSE Research Track\n    
-DTEND:20250429T120000Z
-DTSTART:20250427T120000Z
-SUMMARY:ICSE 2025 - FormaliSE Research Track - FormaliSE 2025
-UID:1497f996-943a-4c7b-8426-13ccf067c909@1497.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: EASE 2025\n        Date: Mon 14 Apr 2025\n        Track: Doctoral Symposium\n    
-DTEND:20250415T120000Z
-DTSTART:20250414T120000Z
-SUMMARY:EASE 2025 - Doctoral Symposium - Notification Deadline
-UID:305f440e-f595-486e-86f0-e083085bf16c@305f.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: EASE 2025\n        Date: Fri 21 Mar 2025\n        Track: Research Papers\n    
-DTEND:20250322T120000Z
-DTSTART:20250321T120000Z
-SUMMARY:EASE 2025 - Research Papers - Notification Deadline
-UID:5e9fa6e2-1733-469b-abae-8a83446cf103@5e9f.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: ICSE 2025\n        Date: Thu 10 - Fri 11 Apr 2025\n        Track: CHASE Doctoral and Early Career Symposium (DECS)\n    
-DTEND:20250412T120000Z
-DTSTART:20250410T120000Z
-SUMMARY:ICSE 2025 - CHASE Doctoral and Early Career Symposium (DECS) - Virtual DECS sessions
-UID:2d9d1946-55c5-4fd0-bc59-617bd125840a@2d9d.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: FSE 2025\n        Date: Tue 25 Mar 2025\n        Track: Software Engineering Education\n    
-DTEND:20250326T120000Z
-DTSTART:20250325T120000Z
-SUMMARY:FSE 2025 - Software Engineering Education - Author notification
-UID:98c52f63-71b6-4550-b802-e52c578053f2@98c5.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: EASE 2025\n        Date: Fri 18 Apr 2025\n        Track: Short Papers\, Emerging Results\n    
-DTEND:20250419T120000Z
-DTSTART:20250418T120000Z
-SUMMARY:EASE 2025 - Short Papers\, Emerging Results - Notification Deadline
-UID:a71d9c2d-f928-4013-89b4-edefad12407f@a71d.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: FSE 2025\n        Date: Thu 24 Apr 2025\n        Track: Ideas\, Visions and Reflections\n    
-DTEND:20250425T120000Z
-DTSTART:20250424T120000Z
-SUMMARY:FSE 2025 - Ideas\, Visions and Reflections - Camera-ready deadline
-UID:4bd89e28-cb6e-4c10-9f1b-efdb0a6bcd5f@4bd8.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: FSE 2025\n        Date: Fri 28 Feb 2025\n        Track: PROMISE\n    
-DTEND:20250301T120000Z
-DTSTART:20250228T120000Z
-SUMMARY:FSE 2025 - PROMISE - Submissions Due
-UID:d3c3c7b4-69df-46a4-a87f-333c38f11ae0@d3c3.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: ICSE 2026\n        Date: Fri 18 Jul 2025 23:59\n        Track: Research Track\n    
-DTEND:20250719T120000Z
-DTSTART:20250718T120000Z
-SUMMARY:ICSE 2026 - Research Track - First Cycle: Revision due
-UID:1b607095-daa0-44bc-86b8-251179474a06@1b60.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: ICSME 2025\n        Date: Sun 27 Jul 2025\n        Track: NIER Track\n    
-DTEND:20250728T120000Z
-DTSTART:20250727T120000Z
-SUMMARY:ICSME 2025 - NIER Track - Camera-ready Submission
-UID:2f7c4dc5-5a20-4d10-bd78-2a6514d60602@2f7c.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: FSE 2025\n        Date: Thu 10 Apr 2025\n        Track: Posters\n    
-DTEND:20250411T120000Z
-DTSTART:20250410T120000Z
-SUMMARY:FSE 2025 - Posters - Acceptance notification
-UID:1de33054-0ad7-4b6a-b65a-095af0a222e2@1de3.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: ICSME 2025\n        Date: Fri 11 Jul 2025\n        Track: Doctoral Symposium\n    
-DTEND:20250712T120000Z
-DTSTART:20250711T120000Z
-SUMMARY:ICSME 2025 - Doctoral Symposium - Author Notification
-UID:3c18bf06-3adf-4592-9934-09aefa5a5fb3@3c18.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: FSE 2025\n        Date: Thu 26 - Fri 27 Jun 2025\n        Track: 2030 Software Engineering\n    
-DTEND:20250628T120000Z
-DTSTART:20250626T120000Z
-SUMMARY:FSE 2025 - 2030 Software Engineering - Worksop
-UID:ef54d768-32e3-44d9-85b5-acb64606d3c0@ef54.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: EASE 2025\n        Date: Sun 13 Apr 2025\n        Track: Workshops\n    
-DTEND:20250414T120000Z
-DTSTART:20250413T120000Z
-SUMMARY:EASE 2025 - Workshops - Workshop Paper Notification Deadline
-UID:80368426-c79c-4564-8443-cf37bc7d552f@8036.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: ASE 2025\n        Date: Thu 14 Aug 2025\n        Track: Research Papers\n    
-DTEND:20250815T120000Z
-DTSTART:20250814T120000Z
-SUMMARY:ASE 2025 - Research Papers - Initial Notification
-UID:41ae69c9-3116-4197-825e-009ce5bd50af@41ae.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: EASE 2025\n        Date: Sun 16 Mar 2025\n        Track: Workshops\n    
-DTEND:20250317T120000Z
-DTSTART:20250316T120000Z
-SUMMARY:EASE 2025 - Workshops - Workshop Paper Submission Deadline
-UID:46df93cb-7c1c-4a1d-9914-c0c4f5dbc86f@46df.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: EASE 2025\n        Date: Sun 27 Apr 2025\n        Track: Research Papers\n    
-DTEND:20250428T120000Z
-DTSTART:20250427T120000Z
-SUMMARY:EASE 2025 - Research Papers - Camera Ready Deadline
-UID:c74d10bf-b647-435c-9246-73400cfee51c@c74d.org
+UID:7343b913-1e2e-418c-b622-b97fabe95a6d@7343.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:\n        Conference: ICSE 2025\n        Date: Tue 29 Apr 2025\n        Track: RAIE\n    
 DTEND:20250430T120000Z
 DTSTART:20250429T120000Z
 SUMMARY:ICSE 2025 - RAIE - Workshop Date
-UID:70976ce9-d75e-421c-be7c-5a85a2dbdb9a@7097.org
+UID:aa92868c-a171-45e5-bae6-54d7d481752a@aa92.org
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:\n        Conference: ICSE 2025\n        Date: Sat 15 Mar 2025\n        Track: CHASE Doctoral and Early Career Symposium (DECS)\n    
-DTEND:20250316T120000Z
-DTSTART:20250315T120000Z
-SUMMARY:ICSE 2025 - CHASE Doctoral and Early Career Symposium (DECS) - Final copy of submission due
-UID:cb42470e-dfd5-48ae-b1f8-138c13dba987@cb42.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: ICSME 2025\n        Date: Thu 13 Mar 2025\n        Track: Research Papers Track\n    
-DTEND:20250314T120000Z
-DTSTART:20250313T120000Z
-SUMMARY:ICSME 2025 - Research Papers Track - Paper Submission
-UID:c3b7f1e6-2303-4136-a8da-aa608268433b@c3b7.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: ICSME 2025\n        Date: Thu 12 Jun 2025\n        Track: Doctoral Symposium\n    
-DTEND:20250613T120000Z
-DTSTART:20250612T120000Z
-SUMMARY:ICSME 2025 - Doctoral Symposium - Paper Submission
-UID:fd745ab5-55b1-4323-b6bf-c074a064cdf4@fd74.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: FSE 2025\n        Date: Thu 24 Apr 2025\n        Track: PROMISE\n    
-DTEND:20250425T120000Z
-DTSTART:20250424T120000Z
-SUMMARY:FSE 2025 - PROMISE - Camera ready
-UID:e148a067-6ac0-4a6f-933f-65ff30b0e373@e148.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: EASE 2025\n        Date: Sun 13 Apr 2025\n        Track: Learnings/Reflections of Evaluation and Assessment projects in Software Engineering\n    
-DTEND:20250414T120000Z
-DTSTART:20250413T120000Z
-SUMMARY:EASE 2025 - Learnings/Reflections of Evaluation and Assessment projects in Software Engineering - Notification Deadline
-UID:3fbb5866-d727-4fc3-bc0b-c56205aefdf3@3fbb.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: ICSE 2025\n        Date: Sun 27 - Mon 28 Apr 2025\n        Track: CHASE Doctoral and Early Career Symposium (DECS)\n    
-DTEND:20250429T120000Z
-DTSTART:20250427T120000Z
-SUMMARY:ICSE 2025 - CHASE Doctoral and Early Career Symposium (DECS) - Participate in CHASE conference
-UID:d4e59ed2-6d79-484f-a399-15d6e0f05459@d4e5.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: ICSME 2025\n        Date: Thu 5 Jun 2025\n        Track: NIER Track\n    
-DTEND:20250606T120000Z
-DTSTART:20250605T120000Z
-SUMMARY:ICSME 2025 - NIER Track - Paper Submission
-UID:324ca055-f7e4-42a7-81d0-e745dfadd6ce@324c.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: EASE 2025\n        Date: Sun 27 Apr 2025\n        Track: Learnings/Reflections of Evaluation and Assessment projects in Software Engineering\n    
-DTEND:20250428T120000Z
-DTSTART:20250427T120000Z
-SUMMARY:EASE 2025 - Learnings/Reflections of Evaluation and Assessment projects in Software Engineering - Camera Ready Deadline
-UID:7fd467a4-49bc-4158-ad7e-17a15f4d55c2@7fd4.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: FSE 2025\n        Date: Mon 10 Mar 2025\n        Track: Demonstrations\n    
-DTEND:20250311T120000Z
-DTSTART:20250310T120000Z
-SUMMARY:FSE 2025 - Demonstrations - Author notification
-UID:8a1e5578-15be-42cb-a27a-73a47540c67b@8a1e.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: FSE 2025\n        Date: Fri 28 Feb 2025\n        Track: 2030 Software Engineering\n    
-DTEND:20250301T120000Z
-DTSTART:20250228T120000Z
-SUMMARY:FSE 2025 - 2030 Software Engineering - Submission Deadline
-UID:431b5d0f-9c95-4e63-ae98-560fe59337d7@431b.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: ICSE 2026\n        Date: Tue 27 May - Thu 29 May 2025\n        Track: Research Track\n    
-DTEND:20250530T120000Z
-DTSTART:20250527T120000Z
-SUMMARY:ICSE 2026 - Research Track - First Cycle: Author response period (3 days)
-UID:7c989975-6930-4c7c-84ca-cefb2cfdf99f@7c98.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: FSE 2025\n        Date: Mon 21 Apr 2025\n        Track: Software Engineering Education\n    
-DTEND:20250422T120000Z
-DTSTART:20250421T120000Z
-SUMMARY:FSE 2025 - Software Engineering Education - Camera ready
-UID:a948f8c6-be81-4a21-bf24-3f49ad23d7c5@a948.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: ICSME 2025\n        Date: Fri 20 Jun 2025\n        Track: Journal First Track\n    
-DTEND:20250621T120000Z
-DTSTART:20250620T120000Z
-SUMMARY:ICSME 2025 - Journal First Track - Author Notification
-UID:0b01849c-e535-4e07-a53b-28d29439a4bc@0b01.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: EASE 2025\n        Date: Mon 7 Apr 2025\n        Track: LEARNER\n    
-DTEND:20250408T120000Z
-DTSTART:20250407T120000Z
-SUMMARY:EASE 2025 - LEARNER - Author Notification
-UID:8ca90e3b-8879-4c8c-8e89-9d25036a94cb@8ca9.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: FSE 2025\n        Date: Thu 10 Apr 2025\n        Track: Doctoral Symposium\n    
-DTEND:20250411T120000Z
-DTSTART:20250410T120000Z
-SUMMARY:FSE 2025 - Doctoral Symposium - Notification
-UID:07edc0d7-2af9-4e81-af5a-366f8315cebb@07ed.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: FSE 2025\n        Date: Mon 31 Mar 2025\n        Track: 2030 Software Engineering\n    
-DTEND:20250401T120000Z
-DTSTART:20250331T120000Z
-SUMMARY:FSE 2025 - 2030 Software Engineering - Acceptance Deadlines
-UID:33448a2d-cc98-4d86-996d-82db42003b40@3344.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: EASE 2025\n        Date: Sun 13 Apr 2025\n        Track: Posters and Vision\n    
-DTEND:20250414T120000Z
-DTSTART:20250413T120000Z
-SUMMARY:EASE 2025 - Posters and Vision - Notification Deadline
-UID:c96ae351-1cde-4150-8a6f-bac73f63a597@c96a.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: FSE 2025\n        Date: Mon 7 Apr 2025\n        Track: Internetware Tool Demonstration Track\n    
-DTEND:20250408T120000Z
-DTSTART:20250407T120000Z
-SUMMARY:FSE 2025 - Internetware Tool Demonstration Track - Notification of Acceptance
-UID:77b5297c-3b69-4536-a444-74d2362a4bc1@77b5.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: EASE 2025\n        Date: Mon 10 Mar 2025\n        Track: Doctoral Symposium\n    
-DTEND:20250311T120000Z
-DTSTART:20250310T120000Z
-SUMMARY:EASE 2025 - Doctoral Symposium - Submission Deadline
-UID:7822d8b9-b736-4058-a763-697f3711bc56@7822.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: EASE 2025\n        Date: Sun 27 Apr 2025\n        Track: EQUISA\n    
-DTEND:20250428T120000Z
-DTSTART:20250427T120000Z
-SUMMARY:EASE 2025 - EQUISA - Camera Ready Deadline
-UID:e36846dc-f633-4f99-a8cd-1d42ba04934a@e368.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: ISSTA 2025\n        Date: Thu 24 Apr 2025\n        Track: Research Papers\n    
-DTEND:20250425T120000Z
-DTSTART:20250424T120000Z
-SUMMARY:ISSTA 2025 - Research Papers - Camera Ready
-UID:35a62291-7ec3-43ca-9c04-51af319c12c1@35a6.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: FSE 2025\n        Date: Tue 4 Mar 2025\n        Track: Journal First\n    
-DTEND:20250305T120000Z
-DTSTART:20250304T120000Z
-SUMMARY:FSE 2025 - Journal First - Submission deadline
-UID:20772fc5-3fa3-418e-b07c-2f74400af7f0@2077.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: ICSE 2026\n        Date: Fri 7 Mar 2025 23:59\n        Track: Research Track\n    
-DTEND:20250308T120000Z
-DTSTART:20250307T120000Z
-SUMMARY:ICSE 2026 - Research Track - First Cycle: (Mandatory) Abstract
-UID:27712681-09fe-40cc-920a-9e458db0cebd@2771.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: ICSE 2025\n        Date: Tue 29 Apr 2025\n        Track: FinanSE\n    
-DTEND:20250430T120000Z
-DTSTART:20250429T120000Z
-SUMMARY:ICSE 2025 - FinanSE - Workshop
-UID:c05263b9-c86e-4396-bfd9-d67a744437ba@c052.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: FSE 2025\n        Date: Tue 4 Mar 2025\n        Track: AI IDE\n    
-DTEND:20250305T120000Z
-DTSTART:20250304T120000Z
-SUMMARY:FSE 2025 - AI IDE - Submission Deadline
-UID:cdc6e980-03ed-43a1-a3e3-2c49b5735258@cdc6.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: ISSTA 2025\n        Date: Fri 11 Apr 2025\n        Track: Artifact Evaluation\n    
-DTEND:20250412T120000Z
-DTSTART:20250411T120000Z
-SUMMARY:ISSTA 2025 - Artifact Evaluation - Artifact Submission Deadline
-UID:9ede3059-a71e-422f-a5e8-57b2f3a089f6@9ede.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: ISSTA 2025\n        Date: Mon 31 Mar 2025\n        Track: Research Papers\n    
-DTEND:20250401T120000Z
-DTSTART:20250331T120000Z
-SUMMARY:ISSTA 2025 - Research Papers - Final Notification for Major Revisions
-UID:00a48596-594d-4198-bffb-b4cd8eda0c69@00a4.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: EASE 2025\n        Date: Sun 13 Apr 2025\n        Track: EQUISA\n    
-DTEND:20250414T120000Z
-DTSTART:20250413T120000Z
-SUMMARY:EASE 2025 - EQUISA - Notification to authors
-UID:b52cdd97-406f-4a8d-99c0-d29219940022@b52c.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: ICSE 2025\n        Date: Mon 28 - Tue 29 Apr 2025\n        Track: CSEE&T\n    
-DTEND:20250430T120000Z
-DTSTART:20250428T120000Z
-SUMMARY:ICSE 2025 - CSEE&T - Conference
-UID:52190b7d-8654-48de-a97e-d553cb8e2fc9@5219.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: EASE 2025\n        Date: Fri 20 Jun 2025\n        Track: International Workshop on Software Security Engineering\n    
-DTEND:20250621T120000Z
-DTSTART:20250620T120000Z
-SUMMARY:EASE 2025 - International Workshop on Software Security Engineering - Workshop date
-UID:9afa5dc1-c268-462a-b9d7-a34917d04671@9afa.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: ICSME 2025\n        Date: Mon 30 Jun 2025\n        Track: Industry Track\n    
-DTEND:20250701T120000Z
-DTSTART:20250630T120000Z
-SUMMARY:ICSME 2025 - Industry Track - Paper and Talk Proposal Notification
-UID:e1f44661-9701-412d-8b07-b3adc15e9724@e1f4.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\n        Conference: ISSTA 2025\n        Date: Thu 10 Apr 2025\n        Track: Tool Demonstrations\n    
-DTEND:20250411T120000Z
-DTSTART:20250410T120000Z
-SUMMARY:ISSTA 2025 - Tool Demonstrations - Author Notification
-UID:fb9d3f7f-cca8-46af-8f50-3da89fcee1c8@fb9d.org
+DESCRIPTION:\n        Conference: EASE 2025\n        Date: Mon 14 Apr 2025\n        Track: Doctoral Symposium\n    
+DTEND:20250415T120000Z
+DTSTART:20250414T120000Z
+SUMMARY:EASE 2025 - Doctoral Symposium - Notification Deadline
+UID:ecf78f66-c8da-445a-8aa2-d9af2ba8683e@ecf7.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:\n        Conference: FSE 2025\n        Date: Sun 20 Apr 2025\n        Track: Internetware Tool Demonstration Track\n    
 DTEND:20250421T120000Z
 DTSTART:20250420T120000Z
 SUMMARY:FSE 2025 - Internetware Tool Demonstration Track - Camera-Ready Submission Deadline
-UID:51cfe5cb-1b66-4dff-a76f-29192e930d69@51cf.org
+UID:0f2b558f-932a-45e8-a1aa-fde0a8c62360@0f2b.org
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:\n        Conference: EASE 2025\n        Date: Fri 2 May 2025\n        Track: LEARNER\n    
-DTEND:20250503T120000Z
-DTSTART:20250502T120000Z
-SUMMARY:EASE 2025 - LEARNER - Early Registration Deadline
-UID:522861ce-e5ba-4557-bd44-68981788d592@5228.org
+DESCRIPTION:\n        Conference: EASE 2025\n        Date: Sun 27 Apr 2025\n        Track: Industry Papers\n    
+DTEND:20250428T120000Z
+DTSTART:20250427T120000Z
+SUMMARY:EASE 2025 - Industry Papers - Camera Ready Deadline
+UID:f7ac1562-5cf8-4df7-b50c-febe1f683c01@f7ac.org
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:\n        Conference: ICSME 2025\n        Date: Sun 27 Jul 2025\n        Track: Doctoral Symposium\n    
-DTEND:20250728T120000Z
-DTSTART:20250727T120000Z
-SUMMARY:ICSME 2025 - Doctoral Symposium - Camera-ready Submission
-UID:9a65504e-2878-43cb-ab84-52279b535f90@9a65.org
+DESCRIPTION:\n        Conference: ICSE 2025\n        Date: Thu 10 - Fri 11 Apr 2025\n        Track: CHASE Doctoral and Early Career Symposium (DECS)\n    
+DTEND:20250412T120000Z
+DTSTART:20250410T120000Z
+SUMMARY:ICSE 2025 - CHASE Doctoral and Early Career Symposium (DECS) - Virtual DECS sessions
+UID:8803ddcf-ede6-4014-a6d9-91ec0ef5d9af@8803.org
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:\n        Conference: EASE 2025\n        Date: Sun 9 Mar 2025\n        Track: Short Papers\, Emerging Results\n    
-DTEND:20250310T120000Z
-DTSTART:20250309T120000Z
-SUMMARY:EASE 2025 - Short Papers\, Emerging Results - Abstract Submission Deadline
-UID:44fbc852-78eb-4924-90d6-1a77047c54ae@44fb.org
+DESCRIPTION:\n        Conference: ISSTA 2025\n        Date: Fri 11 Apr 2025\n        Track: Artifact Evaluation\n    
+DTEND:20250412T120000Z
+DTSTART:20250411T120000Z
+SUMMARY:ISSTA 2025 - Artifact Evaluation - Artifact Submission Deadline
+UID:a0af108f-32e0-478b-b187-8f0773994ea6@a0af.org
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:\n        Conference: ICSE 2025\n        Date: Tue 1 Apr 2025\n        Track: TechDebt Industry Track\n    
-DTEND:20250402T120000Z
-DTSTART:20250401T120000Z
-SUMMARY:ICSE 2025 - TechDebt Industry Track - Submission deadline for war stories
-UID:43df1221-bab7-4305-9438-6df68c1fdf42@43df.org
+DESCRIPTION:\n        Conference: ICSE 2025\n        Date: Sun 27 - Mon 28 Apr 2025\n        Track: CHASE Doctoral and Early Career Symposium (DECS)\n    
+DTEND:20250429T120000Z
+DTSTART:20250427T120000Z
+SUMMARY:ICSE 2025 - CHASE Doctoral and Early Career Symposium (DECS) - Participate in CHASE conference
+UID:dcc0ab38-7eb4-4303-925b-9154276fc607@dcc0.org
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:\n        Conference: ICSME 2025\n        Date: Fri 30 May 2025\n        Track: NIER Track\n    
-DTEND:20250531T120000Z
-DTSTART:20250530T120000Z
-SUMMARY:ICSME 2025 - NIER Track - Abstract Submission
-UID:6335a074-8a63-473c-afa3-c9ab811ed1bd@6335.org
+DESCRIPTION:\n        Conference: EASE 2025\n        Date: Sun 16 Mar 2025\n        Track: Workshops\n    
+DTEND:20250317T120000Z
+DTSTART:20250316T120000Z
+SUMMARY:EASE 2025 - Workshops - Workshop Paper Submission Deadline
+UID:3897aa36-5800-4f2d-a6d9-2fa321a0b441@3897.org
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:\n        Conference: FSE 2025\n        Date: Mon 3 Mar 2025\n        Track: Tutorials\n    
-DTEND:20250304T120000Z
-DTSTART:20250303T120000Z
-SUMMARY:FSE 2025 - Tutorials - Acceptance
-UID:8ddfdc5c-ca88-4ce4-9bcb-f0d41c1b336a@8ddf.org
+DESCRIPTION:\n        Conference: ICSME 2025\n        Date: Thu 29 May 2025\n        Track: Tool Demonstration Track\n    
+DTEND:20250530T120000Z
+DTSTART:20250529T120000Z
+SUMMARY:ICSME 2025 - Tool Demonstration Track - Paper Submission
+UID:d9bab7e8-eb3b-4585-840c-44136078861a@d9ba.org
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:\n        Conference: FSE 2025\n        Date: Thu 24 Apr 2025\n        Track: Posters\n    
-DTEND:20250425T120000Z
-DTSTART:20250424T120000Z
-SUMMARY:FSE 2025 - Posters - Camera-ready deadline
-UID:f97a0a92-2339-4941-82d1-a3e7b067bb96@f97a.org
+DESCRIPTION:\n        Conference: ICSE 2026\n        Date: Fri 18 Jul 2025 23:59\n        Track: Research Track\n    
+DTEND:20250719T120000Z
+DTSTART:20250718T120000Z
+SUMMARY:ICSE 2026 - Research Track - Second Cycle: Submission
+UID:a87d0c71-582e-4f71-be2e-c0261f96056b@a87d.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: FSE 2025\n        Date: Mon 24 Mar 2025\n        Track: Student Research Competition\n    
+DTEND:20250325T120000Z
+DTSTART:20250324T120000Z
+SUMMARY:FSE 2025 - Student Research Competition - Notification
+UID:b75a5b38-6478-45d4-ae16-1f2de779a654@b75a.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: EASE 2025\n        Date: Fri 20 Jun 2025\n        Track: International Workshop on Software Security Engineering\n    
+DTEND:20250621T120000Z
+DTSTART:20250620T120000Z
+SUMMARY:EASE 2025 - International Workshop on Software Security Engineering - Workshop date
+UID:b5216d93-3ac9-4920-a0bd-e699d847fe36@b521.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: ICSME 2025\n        Date: Fri 11 Jul 2025\n        Track: NIER Track\n    
+DTEND:20250712T120000Z
+DTSTART:20250711T120000Z
+SUMMARY:ICSME 2025 - NIER Track - Author Notification
+UID:efc89c22-1bc2-4cca-858c-ccc94e799608@efc8.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: EASE 2025\n        Date: Sun 13 Apr 2025\n        Track: International Workshop on Software Security Engineering\n    
+DTEND:20250414T120000Z
+DTSTART:20250413T120000Z
+SUMMARY:EASE 2025 - International Workshop on Software Security Engineering - Notifications to authors
+UID:c4f97d89-a0fd-4e42-b04e-e896c43a67e2@c4f9.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: EASE 2025\n        Date: Sun 16 Mar 2025\n        Track: Short Papers\, Emerging Results\n    
+DTEND:20250317T120000Z
+DTSTART:20250316T120000Z
+SUMMARY:EASE 2025 - Short Papers\, Emerging Results - Full Paper Submission Deadline
+UID:f0fd601e-b608-4f5f-9a2e-a4f2959b9c5b@f0fd.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: EASE 2025\n        Date: Mon 5 May 2025\n        Track: International Workshop on Software Security Engineering\n    
+DTEND:20250506T120000Z
+DTSTART:20250505T120000Z
+SUMMARY:EASE 2025 - International Workshop on Software Security Engineering - Early registration
+UID:01524e2d-6d49-463a-9abb-a9013d9a5097@0152.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: FSE 2025\n        Date: Fri 28 Feb 2025\n        Track: 2030 Software Engineering\n    
+DTEND:20250301T120000Z
+DTSTART:20250228T120000Z
+SUMMARY:FSE 2025 - 2030 Software Engineering - Submission Deadline
+UID:ecb19d31-e0ef-4a65-a61d-99ede6bf5367@ecb1.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: EASE 2025\n        Date: Sun 27 Apr 2025\n        Track: LEARNER\n    
+DTEND:20250428T120000Z
+DTSTART:20250427T120000Z
+SUMMARY:EASE 2025 - LEARNER - Camera Ready Deadline
+UID:a1d33de2-3f78-4c97-8d70-0992fcfefb1a@a1d3.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: EASE 2025\n        Date: Sun 27 Apr 2025\n        Track: Short Papers\, Emerging Results\n    
+DTEND:20250428T120000Z
+DTSTART:20250427T120000Z
+SUMMARY:EASE 2025 - Short Papers\, Emerging Results - Camera Ready Deadline
+UID:0494ba61-0b0d-45b5-be56-957e1ac8d144@0494.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:\n        Conference: EASE 2025\n        Date: Mon 5 May 2025\n        Track: EQUISA\n    
 DTEND:20250506T120000Z
 DTSTART:20250505T120000Z
 SUMMARY:EASE 2025 - EQUISA - Early registration deadline for authors
-UID:009c8771-48f2-4c17-b4eb-5486b040b005@009c.org
+UID:ff97feb7-7cb6-4f81-8d58-584f0ffb3e9a@ff97.org
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:\n        Conference: ICSE 2025\n        Date: Fri 28 Feb 2025\n        Track: TechDebt Industry Track\n    
-DTEND:20250301T120000Z
-DTSTART:20250228T120000Z
-SUMMARY:ICSE 2025 - TechDebt Industry Track - Notification for talks
-UID:b482610b-870c-4e63-b9ff-09786cdc30e6@b482.org
+DESCRIPTION:\n        Conference: ICSME 2025\n        Date: Thu 5 Jun 2025\n        Track: Research Papers Track\n    
+DTEND:20250606T120000Z
+DTSTART:20250605T120000Z
+SUMMARY:ICSME 2025 - Research Papers Track - Final Notification
+UID:4485315c-991a-4b3e-82a7-7d4b85eee775@4485.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: ICSME 2025\n        Date: Wed 7 May 2025\n        Track: Research Papers Track\n    
+DTEND:20250508T120000Z
+DTSTART:20250507T120000Z
+SUMMARY:ICSME 2025 - Research Papers Track - Early Decisions Notification
+UID:38b6bec3-8323-4a1f-bff4-ed6609622c28@38b6.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: ICSE 2026\n        Date: Fri 18 Jul 2025 23:59\n        Track: Research Track\n    
+DTEND:20250719T120000Z
+DTSTART:20250718T120000Z
+SUMMARY:ICSE 2026 - Research Track - First Cycle: Revision due
+UID:878ecec9-156d-46f1-8fc9-b4446da29158@878e.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: EASE 2025\n        Date: Sun 13 Apr 2025\n        Track: Tutorials\n    
+DTEND:20250414T120000Z
+DTSTART:20250413T120000Z
+SUMMARY:EASE 2025 - Tutorials - Notification Deadline
+UID:f55a7f7d-1868-440e-b1ac-bb98c8dacf33@f55a.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: ICSE 2025\n        Date: Mon 28 - Tue 29 Apr 2025\n        Track: CSEE&T\n    
+DTEND:20250430T120000Z
+DTSTART:20250428T120000Z
+SUMMARY:ICSE 2025 - CSEE&T - Conference
+UID:d0fb7416-dcf5-4a4e-931b-08e124be33c5@d0fb.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: ICSE 2025\n        Date: Sat 3 May 2025\n        Track: Gamify\n    
+DTEND:20250504T120000Z
+DTSTART:20250503T120000Z
+SUMMARY:ICSE 2025 - Gamify - Workshop Day
+UID:146fb85a-368a-4b46-a3a6-0207fb5fdc59@146f.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: FSE 2025\n        Date: Tue 4 Mar 2025\n        Track: Journal First\n    
+DTEND:20250305T120000Z
+DTSTART:20250304T120000Z
+SUMMARY:FSE 2025 - Journal First - Submission deadline
+UID:2da76919-8999-48ab-9c70-4269fd3f0040@2da7.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: EASE 2025\n        Date: Sun 27 Apr 2025\n        Track: EQUISA\n    
+DTEND:20250428T120000Z
+DTSTART:20250427T120000Z
+SUMMARY:EASE 2025 - EQUISA - Camera Ready Deadline
+UID:ce8a502f-f182-4664-bc96-f2d0b3323f13@ce8a.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: FSE 2025\n        Date: Thu 10 Apr 2025\n        Track: AI IDE\n    
+DTEND:20250411T120000Z
+DTSTART:20250410T120000Z
+SUMMARY:FSE 2025 - AI IDE - Notification
+UID:99cec118-5d41-4f8f-87ee-ce0c8b946bd6@99ce.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: FSE 2025\n        Date: Thu 24 Apr 2025\n        Track: Doctoral Symposium\n    
+DTEND:20250425T120000Z
+DTSTART:20250424T120000Z
+SUMMARY:FSE 2025 - Doctoral Symposium - Camera-ready deadline
+UID:0158ae67-cb8e-4ddf-bb2d-269041f61419@0158.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: ISSTA 2025\n        Date: Thu 10 Apr 2025\n        Track: Tool Demonstrations\n    
+DTEND:20250411T120000Z
+DTSTART:20250410T120000Z
+SUMMARY:ISSTA 2025 - Tool Demonstrations - Author Notification
+UID:4f18d15b-eed7-4b80-b6b5-32a725a1685c@4f18.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: ICSE 2025\n        Date: Sat 3 May 2025\n        Track: SESoS\n    
+DTEND:20250504T120000Z
+DTSTART:20250503T120000Z
+SUMMARY:ICSE 2025 - SESoS - Workshop date
+UID:6e61f259-1a40-4636-bd3d-41317fb6b69b@6e61.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: ASE 2025\n        Date: Thu 14 Aug 2025\n        Track: Research Papers\n    
+DTEND:20250815T120000Z
+DTSTART:20250814T120000Z
+SUMMARY:ASE 2025 - Research Papers - Initial Notification
+UID:c21095e4-5d02-441d-9cde-189790f6747c@c210.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: ICSME 2025\n        Date: Thu 5 Jun 2025\n        Track: NIER Track\n    
+DTEND:20250606T120000Z
+DTSTART:20250605T120000Z
+SUMMARY:ICSME 2025 - NIER Track - Paper Submission
+UID:9a8cd3c4-e75d-43b5-a96f-11dfe6d9c30f@9a8c.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: ICSME 2025\n        Date: Thu 12 Jun 2025\n        Track: Doctoral Symposium\n    
+DTEND:20250613T120000Z
+DTSTART:20250612T120000Z
+SUMMARY:ICSME 2025 - Doctoral Symposium - Paper Submission
+UID:b99e7acb-e961-41c8-a858-7bd193c1d80d@b99e.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: FSE 2025\n        Date: Thu 24 Apr 2025\n        Track: Student Research Competition\n    
+DTEND:20250425T120000Z
+DTSTART:20250424T120000Z
+SUMMARY:FSE 2025 - Student Research Competition - Camera-ready version
+UID:be563653-4ecc-4adf-8e58-eba6475dad9c@be56.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: ICSE 2025\n        Date: Tue 1 Apr 2025\n        Track: TechDebt Industry Track\n    
+DTEND:20250402T120000Z
+DTSTART:20250401T120000Z
+SUMMARY:ICSE 2025 - TechDebt Industry Track - Submission deadline for war stories
+UID:192e506e-c378-4501-83f9-440b4ce01ee3@192e.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: EASE 2025\n        Date: Sun 16 Mar 2025\n        Track: Posters and Vision\n    
+DTEND:20250317T120000Z
+DTSTART:20250316T120000Z
+SUMMARY:EASE 2025 - Posters and Vision - Submission Deadline
+UID:cdc1da31-4023-4927-b3b5-a99a5a005ae2@cdc1.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: ICSE 2025\n        Date: Tue 29 Apr 2025\n        Track: FinanSE\n    
+DTEND:20250430T120000Z
+DTSTART:20250429T120000Z
+SUMMARY:ICSE 2025 - FinanSE - Workshop
+UID:ddcc3853-70e3-4e9c-b75f-c2c0c66379bf@ddcc.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: FSE 2025\n        Date: Sat 1 Mar 2025\n        Track: Internetware Research Track\n    
+DTEND:20250302T120000Z
+DTSTART:20250301T120000Z
+SUMMARY:FSE 2025 - Internetware Research Track - Submission Deadline
+UID:373f6d3e-10bb-4277-9a9d-8bb197a06291@373f.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: ICSME 2025\n        Date: Thu 6 Mar 2025\n        Track: Research Papers Track\n    
+DTEND:20250307T120000Z
+DTSTART:20250306T120000Z
+SUMMARY:ICSME 2025 - Research Papers Track - Abstract Submission
+UID:328143e5-e6c4-498d-8b2c-dee77faebd0b@3281.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: EASE 2025\n        Date: Sun 27 Apr 2025\n        Track: Learnings/Reflections of Evaluation and Assessment projects in Software Engineering\n    
+DTEND:20250428T120000Z
+DTSTART:20250427T120000Z
+SUMMARY:EASE 2025 - Learnings/Reflections of Evaluation and Assessment projects in Software Engineering - Camera Ready Deadline
+UID:9dd6ed58-6960-42c2-941b-b8324670e33b@9dd6.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: ICSE 2026\n        Date: Tue 27 May - Thu 29 May 2025\n        Track: Research Track\n    
+DTEND:20250530T120000Z
+DTSTART:20250527T120000Z
+SUMMARY:ICSE 2026 - Research Track - First Cycle: Author response period (3 days)
+UID:fbf29679-4d63-43fc-b1b0-827dd04a04ed@fbf2.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: FSE 2025\n        Date: Thu 24 Apr 2025\n        Track: Posters\n    
+DTEND:20250425T120000Z
+DTSTART:20250424T120000Z
+SUMMARY:FSE 2025 - Posters - Camera-ready deadline
+UID:dc05b075-00dc-45c6-b9d3-09f695234a80@dc05.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: FSE 2025\n        Date: Mon 14 Apr 2025\n        Track: Tutorials\n    
+DTEND:20250415T120000Z
+DTSTART:20250414T120000Z
+SUMMARY:FSE 2025 - Tutorials - Camera-ready deadline
+UID:8f23547a-8907-4ff7-890d-96cb582a791c@8f23.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: ICSE 2025\n        Date: Fri 14 Mar 2025\n        Track: MSR  Awards\n    
+DTEND:20250315T120000Z
+DTSTART:20250314T120000Z
+SUMMARY:ICSE 2025 - MSR  Awards - Notification
+UID:5015e8b7-a319-4107-9a4e-9d06f852cb9c@5015.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: FSE 2025\n        Date: Thu 24 Apr 2025\n        Track: Research Papers\n    
+DTEND:20250425T120000Z
+DTSTART:20250424T120000Z
+SUMMARY:FSE 2025 - Research Papers - Camera ready (major revisions)
+UID:fbb77fe0-57b8-41e8-a2e5-726b5175e7b2@fbb7.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: EASE 2025\n        Date: Sun 13 Apr 2025\n        Track: AI Models / Data\n    
+DTEND:20250414T120000Z
+DTSTART:20250413T120000Z
+SUMMARY:EASE 2025 - AI Models / Data - Notification Deadline
+UID:99730170-575f-4bca-91f6-7d9b409dd74b@9973.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: ICSME 2025\n        Date: Fri 30 May 2025\n        Track: NIER Track\n    
+DTEND:20250531T120000Z
+DTSTART:20250530T120000Z
+SUMMARY:ICSME 2025 - NIER Track - Abstract Submission
+UID:6bad9ec0-2240-4cee-a22a-098aa1d8a58a@6bad.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:\n        Conference: EASE 2025\n        Date: Sun 16 Mar 2025\n        Track: EQUISA\n    
 DTEND:20250317T120000Z
 DTSTART:20250316T120000Z
 SUMMARY:EASE 2025 - EQUISA - Submission deadline
-UID:51ff1988-3f1c-4454-913a-c0246828c0c3@51ff.org
+UID:255b8ba0-989a-4451-bbcc-25305905eedc@255b.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: FSE 2025\n        Date: Thu 24 Apr 2025\n        Track: AI IDE\n    
+DTEND:20250425T120000Z
+DTSTART:20250424T120000Z
+SUMMARY:FSE 2025 - AI IDE - Camera-ready
+UID:b028b4b7-ebe6-4b4c-9d35-5f47d5914dd8@b028.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: FSE 2025\n        Date: Tue 25 Mar 2025\n        Track: Software Engineering Education\n    
+DTEND:20250326T120000Z
+DTSTART:20250325T120000Z
+SUMMARY:FSE 2025 - Software Engineering Education - Author notification
+UID:d6ad0ea4-bdc4-4ad0-b773-337af09068ca@d6ad.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: EASE 2025\n        Date: Fri 18 Apr 2025\n        Track: Short Papers\, Emerging Results\n    
+DTEND:20250419T120000Z
+DTSTART:20250418T120000Z
+SUMMARY:EASE 2025 - Short Papers\, Emerging Results - Notification Deadline
+UID:f3f9d83a-b357-4b2a-b8c1-4b52cd1ce266@f3f9.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: ICSME 2025\n        Date: Sun 18 May 2025\n        Track: Industry Track\n    
+DTEND:20250519T120000Z
+DTSTART:20250518T120000Z
+SUMMARY:ICSME 2025 - Industry Track - Paper Submission
+UID:81b08cd5-2ca9-4a4f-af8f-c8182dfb5464@81b0.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: ICSME 2025\n        Date: Sun 27 Jul 2025\n        Track: Industry Track\n    
+DTEND:20250728T120000Z
+DTSTART:20250727T120000Z
+SUMMARY:ICSME 2025 - Industry Track - Camera-ready Submission for Papers and 1-Pager Talks
+UID:83acdc89-868d-4986-aad6-0ec80ca5d26c@83ac.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: FSE 2025\n        Date: Sun 20 Apr 2025\n        Track: Internetware Research Track\n    
+DTEND:20250421T120000Z
+DTSTART:20250420T120000Z
+SUMMARY:FSE 2025 - Internetware Research Track - Camera-Ready Version
+UID:cbd9c198-fa44-491b-b5a9-56ce6d3d41cd@cbd9.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: ISSTA 2025\n        Date: Thu 24 Apr 2025\n        Track: Tool Demonstrations\n    
+DTEND:20250425T120000Z
+DTSTART:20250424T120000Z
+SUMMARY:ISSTA 2025 - Tool Demonstrations - Camera-Ready Deadline
+UID:a064352d-5427-4b40-a3be-8617e5365c6c@a064.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: ICSE 2026\n        Date: Fri 7 Mar 2025 23:59\n        Track: Research Track\n    
+DTEND:20250308T120000Z
+DTSTART:20250307T120000Z
+SUMMARY:ICSE 2026 - Research Track - First Cycle: (Mandatory) Abstract
+UID:1a20080f-e9ea-494b-b72a-367895108a17@1a20.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: EASE 2025\n        Date: Sun 27 Apr 2025\n        Track: Tutorials\n    
+DTEND:20250428T120000Z
+DTSTART:20250427T120000Z
+SUMMARY:EASE 2025 - Tutorials - Camera Ready Deadline
+UID:2e2cced8-5974-4901-b510-b935a5200c2b@2e2c.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: ISSTA 2025\n        Date: Thu 27 Feb 2025\n        Track: Research Papers\n    
+DTEND:20250228T120000Z
+DTSTART:20250227T120000Z
+SUMMARY:ISSTA 2025 - Research Papers - Revised Manuscript Submissions (Major Revisions Only)
+UID:1d33793e-37bd-4b93-a733-16dcaa4221a2@1d33.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: ICSE 2025\n        Date: Sun 27 - Mon 28 Apr 2025\n        Track: FormaliSE Research Track\n    
+DTEND:20250429T120000Z
+DTSTART:20250427T120000Z
+SUMMARY:ICSE 2025 - FormaliSE Research Track - FormaliSE 2025
+UID:9161e250-ce82-42fe-90de-9d8ee283b19b@9161.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: ICSME 2025\n        Date: Mon 7 Jul 2025\n        Track: Tool Demonstration Track\n    
+DTEND:20250708T120000Z
+DTSTART:20250707T120000Z
+SUMMARY:ICSME 2025 - Tool Demonstration Track - Author Notification
+UID:f04d1be9-ac0b-4802-bc37-debd96b220d0@f04d.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: EASE 2025\n        Date: Sun 27 Apr 2025\n        Track: International Workshop on Software Security Engineering\n    
+DTEND:20250428T120000Z
+DTSTART:20250427T120000Z
+SUMMARY:EASE 2025 - International Workshop on Software Security Engineering - Camera Ready Deadline
+UID:40305b94-ed00-4f2a-a841-21bbc7f93f50@4030.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: FSE 2025\n        Date: Tue 4 Mar 2025\n        Track: AI IDE\n    
+DTEND:20250305T120000Z
+DTSTART:20250304T120000Z
+SUMMARY:FSE 2025 - AI IDE - Submission Deadline
+UID:dbc28128-57e2-460d-8e0f-67adaa5ce6c8@dbc2.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: EASE 2025\n        Date: Fri 20 Jun 2025\n        Track: EQUISA\n    
+DTEND:20250621T120000Z
+DTSTART:20250620T120000Z
+SUMMARY:EASE 2025 - EQUISA - Workshop date
+UID:dcce76f0-871e-4a6b-a1b1-3e8cc513a0bf@dcce.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: ICSE 2025\n        Date: Sat 3 May 2025\n        Track: NSE\n    
+DTEND:20250504T120000Z
+DTSTART:20250503T120000Z
+SUMMARY:ICSE 2025 - NSE - Workshop Day
+UID:eb3a9bc2-9020-4dfe-82fe-540d8d31e46c@eb3a.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: ICSE 2025\n        Date: Tue 29 Apr 2025\n        Track: SE4ADS\n    
+DTEND:20250430T120000Z
+DTSTART:20250429T120000Z
+SUMMARY:ICSE 2025 - SE4ADS - Workshop Date
+UID:8314afc2-0191-4a1a-9d83-d6264636135a@8314.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: EASE 2025\n        Date: Fri 21 Mar 2025\n        Track: Research Papers\n    
+DTEND:20250322T120000Z
+DTSTART:20250321T120000Z
+SUMMARY:EASE 2025 - Research Papers - Notification Deadline
+UID:9981509b-9ad0-4b81-8acb-36799b067d88@9981.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: FSE 2025\n        Date: Mon 31 Mar 2025\n        Track: 2030 Software Engineering\n    
+DTEND:20250401T120000Z
+DTSTART:20250331T120000Z
+SUMMARY:FSE 2025 - 2030 Software Engineering - Acceptance Deadlines
+UID:3263754a-68fe-4c63-bf94-52fd60debe53@3263.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: ICSME 2025\n        Date: Sun 27 Jul 2025\n        Track: Tool Demonstration Track\n    
+DTEND:20250728T120000Z
+DTSTART:20250727T120000Z
+SUMMARY:ICSME 2025 - Tool Demonstration Track - Camera-ready Submission
+UID:241b8988-f2e7-4bac-bf92-e283e2b48306@241b.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: FSE 2025\n        Date: Thu 24 Apr 2025\n        Track: Ideas\, Visions and Reflections\n    
+DTEND:20250425T120000Z
+DTSTART:20250424T120000Z
+SUMMARY:FSE 2025 - Ideas\, Visions and Reflections - Camera-ready deadline
+UID:3c494f6e-8713-49e4-8cea-ee0dc08590e0@3c49.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: FSE 2025\n        Date: Mon 17 Mar 2025\n        Track: Internetware Tool Demonstration Track\n    
+DTEND:20250318T120000Z
+DTSTART:20250317T120000Z
+SUMMARY:FSE 2025 - Internetware Tool Demonstration Track - Submission Deadline
+UID:cad4c700-fce4-4bcd-84e9-4e3e09dadc41@cad4.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: EASE 2025\n        Date: Sun 13 Apr 2025\n        Track: Industry Papers\n    
+DTEND:20250414T120000Z
+DTSTART:20250413T120000Z
+SUMMARY:EASE 2025 - Industry Papers - Notification Deadline
+UID:80c5ceef-de39-4dcd-b8b5-ca8601b932f4@80c5.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: EASE 2025\n        Date: Sun 27 Apr 2025\n        Track: AI Models / Data\n    
+DTEND:20250428T120000Z
+DTSTART:20250427T120000Z
+SUMMARY:EASE 2025 - AI Models / Data - Camera Ready Deadline
+UID:a296f2cd-0bb6-4161-818f-3c98f8fde0bd@a296.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: ICSME 2025\n        Date: Sun 27 Jul 2025\n        Track: NIER Track\n    
+DTEND:20250728T120000Z
+DTSTART:20250727T120000Z
+SUMMARY:ICSME 2025 - NIER Track - Camera-ready Submission
+UID:e0791daa-caff-420f-b2b4-d33ecf397216@e079.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: FSE 2025\n        Date: Mon 3 Mar 2025\n        Track: Tutorials\n    
+DTEND:20250304T120000Z
+DTSTART:20250303T120000Z
+SUMMARY:FSE 2025 - Tutorials - Acceptance
+UID:dcc8a336-d289-481c-84e9-a4b7994eede5@dcc8.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: EASE 2025\n        Date: Sun 13 Apr 2025\n        Track: EQUISA\n    
+DTEND:20250414T120000Z
+DTSTART:20250413T120000Z
+SUMMARY:EASE 2025 - EQUISA - Notification to authors
+UID:69e38549-726d-4b4f-b28e-5a13a75c5ecd@69e3.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: EASE 2025\n        Date: Sun 16 Mar 2025\n        Track: AI Models / Data\n    
+DTEND:20250317T120000Z
+DTSTART:20250316T120000Z
+SUMMARY:EASE 2025 - AI Models / Data - Submission Deadline
+UID:b33b74f0-5021-4320-987b-ead1160937f7@b33b.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: ICSME 2025\n        Date: Thu 13 Mar 2025\n        Track: Research Papers Track\n    
+DTEND:20250314T120000Z
+DTSTART:20250313T120000Z
+SUMMARY:ICSME 2025 - Research Papers Track - Paper Submission
+UID:19f2f9d5-dca3-4174-a274-8a5844f51c9a@19f2.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: FSE 2025\n        Date: Thu 24 Apr 2025\n        Track: Workshops\n    
+DTEND:20250425T120000Z
+DTSTART:20250424T120000Z
+SUMMARY:FSE 2025 - Workshops - Camera-ready deadline
+UID:4611043b-570a-48b6-bfa0-9869cd737549@4611.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: FSE 2025\n        Date: Mon 24 Mar 2025\n        Track: PROMISE\n    
+DTEND:20250325T120000Z
+DTSTART:20250324T120000Z
+SUMMARY:FSE 2025 - PROMISE - Author notification
+UID:10baf25b-9651-4c73-be1e-955fe79d3fd0@10ba.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: EASE 2025\n        Date: Mon 10 Mar 2025\n        Track: Doctoral Symposium\n    
+DTEND:20250311T120000Z
+DTSTART:20250310T120000Z
+SUMMARY:EASE 2025 - Doctoral Symposium - Submission Deadline
+UID:5b7c0eb2-307b-41d7-a147-89dbdfa88577@5b7c.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: ISSTA 2025\n        Date: Thu 20 Mar 2025\n        Track: Tool Demonstrations\n    
+DTEND:20250321T120000Z
+DTSTART:20250320T120000Z
+SUMMARY:ISSTA 2025 - Tool Demonstrations - Submission Deadline
+UID:54befcdc-fee9-4030-b859-83f0d309bf47@54be.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: FSE 2025\n        Date: Thu 10 Apr 2025\n        Track: Student Volunteers\n    
+DTEND:20250411T120000Z
+DTSTART:20250410T120000Z
+SUMMARY:FSE 2025 - Student Volunteers - Notification
+UID:fefd0017-7d35-46f6-8580-982bbf7d08ad@fefd.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: ICSME 2025\n        Date: Sun 27 Jul 2025\n        Track: Doctoral Symposium\n    
+DTEND:20250728T120000Z
+DTSTART:20250727T120000Z
+SUMMARY:ICSME 2025 - Doctoral Symposium - Camera-ready Submission
+UID:0815ca73-d377-48ff-8642-f4438f163931@0815.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: FSE 2025\n        Date: Thu 10 Apr 2025\n        Track: Posters\n    
+DTEND:20250411T120000Z
+DTSTART:20250410T120000Z
+SUMMARY:FSE 2025 - Posters - Acceptance notification
+UID:513ab76b-b373-4768-89ed-f7835e153e92@513a.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: EASE 2025\n        Date: Fri 20 Jun 2025\n        Track: LEARNER\n    
+DTEND:20250621T120000Z
+DTSTART:20250620T120000Z
+SUMMARY:EASE 2025 - LEARNER - Workshop Date
+UID:15e6a26e-935a-476e-8174-3c9ecd717422@15e6.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: ASE 2025\n        Date: Fri 30 May 2025\n        Track: Research Papers\n    
+DTEND:20250531T120000Z
+DTSTART:20250530T120000Z
+SUMMARY:ASE 2025 - Research Papers - Paper Submission
+UID:5e929af2-33b1-44a8-9be7-669fa1f7f5be@5e92.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: FSE 2025\n        Date: Mon 7 Apr 2025\n        Track: Internetware New Idea Track\n    
+DTEND:20250408T120000Z
+DTSTART:20250407T120000Z
+SUMMARY:FSE 2025 - Internetware New Idea Track - New Idea Track Acceptance Notification
+UID:dbb89dfa-c4ef-43e0-93d9-c50b94502661@dbb8.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: EASE 2025\n        Date: Mon 10 Mar 2025\n        Track: LEARNER\n    
+DTEND:20250311T120000Z
+DTSTART:20250310T120000Z
+SUMMARY:EASE 2025 - LEARNER - Paper Submission
+UID:78a17c48-a691-460f-aeca-70c6e30ab524@78a1.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: FSE 2025\n        Date: Mon 10 Mar 2025\n        Track: Demonstrations\n    
+DTEND:20250311T120000Z
+DTSTART:20250310T120000Z
+SUMMARY:FSE 2025 - Demonstrations - Author notification
+UID:fef344e0-fe78-4675-9f7e-01d41a3f71ff@fef3.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: ISSTA 2025\n        Date: Mon 31 Mar 2025\n        Track: Research Papers\n    
+DTEND:20250401T120000Z
+DTSTART:20250331T120000Z
+SUMMARY:ISSTA 2025 - Research Papers - Final Notification for Major Revisions
+UID:aa8fbc8b-d179-4e3a-968d-7011f8b92224@aa8f.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: FSE 2025\n        Date: Mon 21 Apr 2025\n        Track: Software Engineering Education\n    
+DTEND:20250422T120000Z
+DTSTART:20250421T120000Z
+SUMMARY:FSE 2025 - Software Engineering Education - Camera ready
+UID:72c2a800-93f6-4beb-a702-4a08921769d7@72c2.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: EASE 2025\n        Date: Mon 7 Apr 2025\n        Track: LEARNER\n    
+DTEND:20250408T120000Z
+DTSTART:20250407T120000Z
+SUMMARY:EASE 2025 - LEARNER - Author Notification
+UID:c8a171ee-4eb2-4ebf-a11e-d2ad16fe7d25@c8a1.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: FSE 2025\n        Date: Tue 25 Mar 2025\n        Track: Industry Papers\n    
+DTEND:20250326T120000Z
+DTSTART:20250325T120000Z
+SUMMARY:FSE 2025 - Industry Papers - Author notification
+UID:480c56f8-0272-4bbd-ba4b-c442ece7a603@480c.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: EASE 2025\n        Date: Sun 27 Apr 2025\n        Track: Posters and Vision\n    
+DTEND:20250428T120000Z
+DTSTART:20250427T120000Z
+SUMMARY:EASE 2025 - Posters and Vision - Camera Ready Deadline
+UID:17f2c50d-0ee6-4eee-8fbf-70ca69ebeeef@17f2.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: EASE 2025\n        Date: Sun 13 Apr 2025\n        Track: Posters and Vision\n    
+DTEND:20250414T120000Z
+DTSTART:20250413T120000Z
+SUMMARY:EASE 2025 - Posters and Vision - Notification Deadline
+UID:51796c18-7cb2-4f58-84a8-4509341abc06@5179.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: EASE 2025\n        Date: Fri 2 May 2025\n        Track: LEARNER\n    
+DTEND:20250503T120000Z
+DTSTART:20250502T120000Z
+SUMMARY:EASE 2025 - LEARNER - Early Registration Deadline
+UID:64a8b2c2-db7c-4360-a24f-4324bab0b8e9@64a8.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: ICSE 2025\n        Date: Fri 28 Feb 2025\n        Track: TechDebt Industry Track\n    
+DTEND:20250301T120000Z
+DTSTART:20250228T120000Z
+SUMMARY:ICSE 2025 - TechDebt Industry Track - Notification for talks
+UID:9d9f917f-5c09-4396-aa99-10e7deb073f3@9d9f.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: ICSE 2025\n        Date: Thu 27 Feb 2025\n        Track: Artifact Evaluation\n    
+DTEND:20250228T120000Z
+DTSTART:20250227T120000Z
+SUMMARY:ICSE 2025 - Artifact Evaluation - Notifications
+UID:e334bfde-4e93-49e7-8cd0-19055b24abd4@e334.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: ISSTA 2025\n        Date: Fri 16 May 2025\n        Track: Artifact Evaluation\n    
+DTEND:20250517T120000Z
+DTSTART:20250516T120000Z
+SUMMARY:ISSTA 2025 - Artifact Evaluation - Artifact Notification
+UID:444641cf-dbfd-45a3-872e-2bb9516e3ea6@4446.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: ICSE 2026\n        Date: Fri 20 Jun 2025 23:59\n        Track: Research Track\n    
+DTEND:20250621T120000Z
+DTSTART:20250620T120000Z
+SUMMARY:ICSE 2026 - Research Track - First Cycle: Notification
+UID:c3f4d935-41d7-4470-804f-92141960e427@c3f4.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: FSE 2025\n        Date: Thu 24 Apr 2025\n        Track: PROMISE\n    
+DTEND:20250425T120000Z
+DTSTART:20250424T120000Z
+SUMMARY:FSE 2025 - PROMISE - Camera ready
+UID:a540d688-071e-4f0a-a25f-21fe6090a703@a540.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: ICSME 2025\n        Date: Fri 6 Jun 2025\n        Track: Journal First Track\n    
+DTEND:20250607T120000Z
+DTSTART:20250606T120000Z
+SUMMARY:ICSME 2025 - Journal First Track - Paper Submission
+UID:ce1164ac-58d7-40f4-a626-5406811275ac@ce11.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: FSE 2025\n        Date: Fri 28 Feb 2025\n        Track: Posters\n    
+DTEND:20250301T120000Z
+DTSTART:20250228T120000Z
+SUMMARY:FSE 2025 - Posters - Submission deadline
+UID:7b8f70db-5e26-43ca-a2cd-8d1d78b1a848@7b8f.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: FSE 2025\n        Date: Fri 14 Mar 2025\n        Track: Ideas\, Visions and Reflections\n    
+DTEND:20250315T120000Z
+DTSTART:20250314T120000Z
+SUMMARY:FSE 2025 - Ideas\, Visions and Reflections - Author notification
+UID:5e1e472f-4577-4c7f-a1a6-d4093e320154@5e1e.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: EASE 2025\n        Date: Fri 2 May 2025\n        Track: Research Papers\n    
+DTEND:20250503T120000Z
+DTSTART:20250502T120000Z
+SUMMARY:EASE 2025 - Research Papers - Early Registration Deadline
+UID:e3bdcc2f-10f3-48aa-ab9f-9c75e10104a6@e3bd.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: EASE 2025\n        Date: Thu 20 Mar 2025\n        Track: DevOps Quality Management\n    
+DTEND:20250321T120000Z
+DTSTART:20250320T120000Z
+SUMMARY:EASE 2025 - DevOps Quality Management - Submissions Due (dummy)
+UID:47bc1708-b574-42b3-84e5-402ffdb6aba9@47bc.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: ISSTA 2025\n        Date: Thu 10 Apr 2025\n        Track: Doctoral Symposium\n    
+DTEND:20250411T120000Z
+DTSTART:20250410T120000Z
+SUMMARY:ISSTA 2025 - Doctoral Symposium - Notification
+UID:953eed05-8575-4961-a550-cf79f124000e@953e.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: EASE 2025\n        Date: Sun 9 Mar 2025\n        Track: Industry Papers\n    
+DTEND:20250310T120000Z
+DTSTART:20250309T120000Z
+SUMMARY:EASE 2025 - Industry Papers - Abstract Submission Deadline
+UID:d8c0a205-5b74-4960-932f-1bd7bd4662ee@d8c0.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: EASE 2025\n        Date: Sun 13 Apr 2025\n        Track: Workshops\n    
+DTEND:20250414T120000Z
+DTSTART:20250413T120000Z
+SUMMARY:EASE 2025 - Workshops - Workshop Paper Notification Deadline
+UID:c79da98d-8864-4c52-bbcb-8de583e74092@c79d.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: EASE 2025\n        Date: Sun 16 Mar 2025\n        Track: Tutorials\n    
+DTEND:20250317T120000Z
+DTSTART:20250316T120000Z
+SUMMARY:EASE 2025 - Tutorials - Submission Deadline
+UID:139a7791-67d5-4f78-bcd9-fe548b861766@139a.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: FSE 2025\n        Date: Sun 30 Mar 2025\n        Track: Internetware Research Track\n    
+DTEND:20250331T120000Z
+DTSTART:20250330T120000Z
+SUMMARY:FSE 2025 - Internetware Research Track - Notification of Acceptance
+UID:f6111e9d-6ce9-43ac-9f8f-4b14da92283c@f611.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: ISSTA 2025\n        Date: Thu 24 Apr 2025\n        Track: Doctoral Symposium\n    
+DTEND:20250425T120000Z
+DTSTART:20250424T120000Z
+SUMMARY:ISSTA 2025 - Doctoral Symposium - Camera-Ready Version
+UID:978cbe11-2a6c-42e3-b505-417998bd8233@978c.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: ICSE 2025\n        Date: Mon 28 - Tue 29 Apr 2025\n        Track: AST\n    
+DTEND:20250430T120000Z
+DTSTART:20250428T120000Z
+SUMMARY:ICSE 2025 - AST - Conference
+UID:86ebc830-dedf-419e-bdf2-3fd7e42476d8@86eb.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: FSE 2025\n        Date: Mon 21 Apr 2025\n        Track: Industry Papers\n    
+DTEND:20250422T120000Z
+DTSTART:20250421T120000Z
+SUMMARY:FSE 2025 - Industry Papers - Camera-ready deadline
+UID:31abd1d7-00d8-4537-99cb-4ba91333a943@31ab.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: FSE 2025\n        Date: Fri 4 Apr 2025\n        Track: Journal First\n    
+DTEND:20250405T120000Z
+DTSTART:20250404T120000Z
+SUMMARY:FSE 2025 - Journal First - Author notification
+UID:47f53c1e-94aa-43fd-a6d3-d0bb71d968e2@47f5.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: FSE 2025\n        Date: Tue 1 Apr 2025\n        Track: Research Papers\n    
+DTEND:20250402T120000Z
+DTSTART:20250401T120000Z
+SUMMARY:FSE 2025 - Research Papers - Final notification for major revisions
+UID:547df0d3-2b50-4265-b20f-3097ddfe89c1@547d.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: ICSE 2025\n        Date: Sat 15 Mar 2025\n        Track: CHASE Doctoral and Early Career Symposium (DECS)\n    
+DTEND:20250316T120000Z
+DTSTART:20250315T120000Z
+SUMMARY:ICSE 2025 - CHASE Doctoral and Early Career Symposium (DECS) - Final copy of submission due
+UID:a5c56d77-a126-4ff7-8fab-5315bd5fc03a@a5c5.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: FSE 2025\n        Date: Thu 24 Apr 2025\n        Track: Demonstrations\n    
+DTEND:20250425T120000Z
+DTSTART:20250424T120000Z
+SUMMARY:FSE 2025 - Demonstrations - Camera-ready deadline
+UID:fee09113-5531-4614-8ed8-2eacb2ab5f4c@fee0.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: ICSME 2025\n        Date: Sun 11 May 2025\n        Track: Industry Track\n    
+DTEND:20250512T120000Z
+DTSTART:20250511T120000Z
+SUMMARY:ICSME 2025 - Industry Track - Paper Abstract Submission
+UID:404d3915-cf07-4ce2-9bfa-fa1934845d3e@404d.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: EASE 2025\n        Date: Sun 13 Apr 2025\n        Track: Learnings/Reflections of Evaluation and Assessment projects in Software Engineering\n    
+DTEND:20250414T120000Z
+DTSTART:20250413T120000Z
+SUMMARY:EASE 2025 - Learnings/Reflections of Evaluation and Assessment projects in Software Engineering - Notification Deadline
+UID:28a0420a-9df4-4d72-a662-18f5ddba70a1@28a0.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: ICSME 2025\n        Date: Thu 5 Jun 2025\n        Track: Industry Track\n    
+DTEND:20250606T120000Z
+DTSTART:20250605T120000Z
+SUMMARY:ICSME 2025 - Industry Track - Talk Proposal Submission
+UID:357ba04f-708b-4d93-b03a-0e6fe46ec9f8@357b.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: EASE 2025\n        Date: Sun 27 Apr 2025\n        Track: Research Papers\n    
+DTEND:20250428T120000Z
+DTSTART:20250427T120000Z
+SUMMARY:EASE 2025 - Research Papers - Camera Ready Deadline
+UID:be075828-f598-45a7-b004-047c1af4a875@be07.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: FSE 2025\n        Date: Fri 28 Feb 2025\n        Track: PROMISE\n    
+DTEND:20250301T120000Z
+DTSTART:20250228T120000Z
+SUMMARY:FSE 2025 - PROMISE - Submissions Due
+UID:a5f8c7b4-4821-4371-9bb8-6f236adb61fa@a5f8.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: EASE 2025\n        Date: Sun 9 Mar 2025\n        Track: Short Papers\, Emerging Results\n    
+DTEND:20250310T120000Z
+DTSTART:20250309T120000Z
+SUMMARY:EASE 2025 - Short Papers\, Emerging Results - Abstract Submission Deadline
+UID:5771aeb3-29aa-4b7b-8048-575ffd328721@5771.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: ISSTA 2025\n        Date: Thu 24 Apr 2025\n        Track: Research Papers\n    
+DTEND:20250425T120000Z
+DTSTART:20250424T120000Z
+SUMMARY:ISSTA 2025 - Research Papers - Camera Ready
+UID:fc0b5772-cac5-4620-9df9-3d0614274171@fc0b.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: FSE 2025\n        Date: Thu 3 Apr 2025\n        Track: Student Volunteers\n    
+DTEND:20250404T120000Z
+DTSTART:20250403T120000Z
+SUMMARY:FSE 2025 - Student Volunteers - Submission deadline
+UID:b6a70b33-e79b-492d-b75a-625a753ed807@b6a7.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: ASE 2025\n        Date: Tue 22 - Fri 25 Jul 2025\n        Track: Research Papers\n    
+DTEND:20250726T120000Z
+DTSTART:20250722T120000Z
+SUMMARY:ASE 2025 - Research Papers - Author Response
+UID:d982c61b-930e-4a42-b4f8-a568dae59bf5@d982.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: FSE 2025\n        Date: Sun 20 Apr 2025\n        Track: Internetware New Idea Track\n    
+DTEND:20250421T120000Z
+DTSTART:20250420T120000Z
+SUMMARY:FSE 2025 - Internetware New Idea Track - New Idea Track Camera Ready
+UID:d8ececcb-6dac-4062-9acf-743f63951a24@d8ec.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: EASE 2025\n        Date: Wed 12 Mar 2025\n        Track: Learnings/Reflections of Evaluation and Assessment projects in Software Engineering\n    
+DTEND:20250313T120000Z
+DTSTART:20250312T120000Z
+SUMMARY:EASE 2025 - Learnings/Reflections of Evaluation and Assessment projects in Software Engineering - Submission Deadline
+UID:76e77ab9-4fe7-4283-bd7f-a9dce5497438@76e7.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: FSE 2025\n        Date: Thu 10 Apr 2025\n        Track: Doctoral Symposium\n    
+DTEND:20250411T120000Z
+DTSTART:20250410T120000Z
+SUMMARY:FSE 2025 - Doctoral Symposium - Notification
+UID:ef7d788a-afe2-4d27-b36a-a343e2f77e0f@ef7d.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: ICSME 2025\n        Date: Fri 20 Jun 2025\n        Track: Journal First Track\n    
+DTEND:20250621T120000Z
+DTSTART:20250620T120000Z
+SUMMARY:ICSME 2025 - Journal First Track - Author Notification
+UID:f6320071-c1a8-4aa0-a572-e6182c34e276@f632.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: ICSE 2026\n        Date: Fri 14 Mar 2025 23:59\n        Track: Research Track\n    
+DTEND:20250315T120000Z
+DTSTART:20250314T120000Z
+SUMMARY:ICSE 2026 - Research Track - First Cycle: Submission
+UID:e3974e06-3d2f-4ba5-81f6-22df4533f47c@e397.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: FSE 2025\n        Date: Mon 17 Mar 2025\n        Track: Internetware New Idea Track\n    
+DTEND:20250318T120000Z
+DTSTART:20250317T120000Z
+SUMMARY:FSE 2025 - Internetware New Idea Track - New Idea Track Submissions Deadline
+UID:e9bb0ab8-5d82-4e16-926f-2e193c981d21@e9bb.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: FSE 2025\n        Date: Mon 7 Apr 2025\n        Track: Internetware Tool Demonstration Track\n    
+DTEND:20250408T120000Z
+DTSTART:20250407T120000Z
+SUMMARY:FSE 2025 - Internetware Tool Demonstration Track - Notification of Acceptance
+UID:c13db3b6-2d37-4e80-8f40-fd84ce88a0b7@c13d.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: ICSE 2025\n        Date: Sat 3 May 2025\n        Track: EnCyCriS\n    
+DTEND:20250504T120000Z
+DTSTART:20250503T120000Z
+SUMMARY:ICSE 2025 - EnCyCriS - Workshop Session
+UID:752c110e-c252-4635-91d9-c54ce5102857@752c.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: ICSME 2025\n        Date: Mon 30 Jun 2025\n        Track: Industry Track\n    
+DTEND:20250701T120000Z
+DTSTART:20250630T120000Z
+SUMMARY:ICSME 2025 - Industry Track - Paper and Talk Proposal Notification
+UID:decb008b-ec06-4a72-8f72-01a4ca1acdd0@decb.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: EASE 2025\n        Date: Sun 16 Mar 2025\n        Track: Industry Papers\n    
+DTEND:20250317T120000Z
+DTSTART:20250316T120000Z
+SUMMARY:EASE 2025 - Industry Papers - Submission Deadline
+UID:1399f826-afc5-41f4-b1dd-0b434b1ce72a@1399.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: ICSE 2025\n        Date: Sun 27 Apr 20:51 - Sat 3 May 12:00 2025\n        Track: SRC - ACM Student Research Competition\n    
+DTEND:20250504T000100Z
+DTSTART:20250428T085100Z
+SUMMARY:ICSE 2025 - SRC - ACM Student Research Competition - SRC Competition
+UID:6ed51c4b-3e87-4c79-8667-a36d9e022812@6ed5.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: EASE 2025\n        Date: Sun 16 Mar 2025\n        Track: International Workshop on Software Security Engineering\n    
+DTEND:20250317T120000Z
+DTSTART:20250316T120000Z
+SUMMARY:EASE 2025 - International Workshop on Software Security Engineering - Papers submission
+UID:15a2873b-3432-4aa1-babd-de28abe55d38@15a2.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n        Conference: FSE 2025\n        Date: Thu 26 - Fri 27 Jun 2025\n        Track: 2030 Software Engineering\n    
+DTEND:20250628T120000Z
+DTSTART:20250626T120000Z
+SUMMARY:FSE 2025 - 2030 Software Engineering - Worksop
+UID:6c373fb7-0443-48d2-b767-9651e4b3ec11@6c37.org
 END:VEVENT
 END:VCALENDAR
