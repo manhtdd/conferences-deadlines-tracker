@@ -1,3 +1,4 @@
+{"conference": "ASE 2025", "date": "Fri 1 Aug 2025", "track": "Industry Showcase", "content": "Submission Deadline"}
 {"conference": "ESEIW 2025", "date": "Fri 1 Aug 2025", "track": "ESEM - Journal First Track", "content": "Notifications"}
 {"conference": "ICFP/SPLASH 2025", "date": "Fri 1 Aug 2025", "track": "LMPL", "content": "Author Notification (tentative)"}
 {"conference": "ISSTA 2025", "date": "Fri 11 Apr 2025", "track": "Artifact Evaluation", "content": "Artifact Submission Deadline"}
@@ -11,6 +12,7 @@
 {"conference": "MODELS 2025", "date": "Fri 11 Jul 2025", "track": "Journal-First", "content": "Submission deadline"}
 {"conference": "MODELS 2025", "date": "Fri 11 Jul 2025", "track": "Tutorials", "content": "Submission deadline"}
 {"conference": "ICSE 2026", "date": "Fri 11 Jul 2025 23:59", "track": "Research Track", "content": "Second Cycle: (Mandatory) Abstract"}
+{"conference": "ASE 2025", "date": "Fri 12 Sep 2025", "track": "Industry Showcase", "content": "Author Notification"}
 {"conference": "ESEIW 2025", "date": "Fri 13 Jun 2025", "track": "ESEM - Research Projects Track", "content": "Submission"}
 {"conference": "ICFP/SPLASH 2025", "date": "Fri 13 Jun 2025", "track": "ICFP  Artifacts", "content": "Artifact submission"}
 {"conference": "PROFES 2025", "date": "Fri 13 Jun 2025", "track": "Research Papers", "content": "Submission"}
@@ -60,6 +62,7 @@
 {"conference": "ECSA 2025", "date": "Fri 21 Mar 2025", "track": "Call for Research Papers", "content": "Paper Submission"}
 {"conference": "ECSA 2025", "date": "Fri 21 Mar 2025", "track": "Industry Program", "content": "Paper submission"}
 {"conference": "ICT4S 2025", "date": "Fri 21 Mar 2025", "track": "Journal First", "content": "Journal first submission deadline"}
+{"conference": "ICT4S 2025", "date": "Fri 21 Mar 2025", "track": "Workshops", "content": "Extended Workshop Proposal submissions deadline"}
 {"conference": "ICFP/SPLASH 2025", "date": "Fri 22 Aug 2025", "track": "SPLASH Student Research Competition", "content": "Camera ready"}
 {"conference": "ECSA 2025", "date": "Fri 23 May 2025", "track": "Call for Tools & Demos", "content": "Paper Submission"}
 {"conference": "ECSA 2025", "date": "Fri 23 May 2025", "track": "Doctoral Symposium", "content": "Paper Submission"}
@@ -90,6 +93,7 @@
 {"conference": "STAF 2025", "date": "Fri 28 Mar 2025", "track": "ICMM", "content": "Abstract Submission"}
 {"conference": "STAF 2025", "date": "Fri 28 Mar 2025", "track": "LLM4SE", "content": "Abstract Submission"}
 {"conference": "STAF 2025", "date": "Fri 28 Mar 2025", "track": "OCL", "content": "Abstract submission"}
+{"conference": "ASE 2025", "date": "Fri 3 Oct 2025", "track": "Industry Showcase", "content": "Camera Ready Submission"}
 {"conference": "ASE 2025", "date": "Fri 3 Oct 2025", "track": "Research Papers", "content": "Camera Ready (all papers)"}
 {"conference": "ASE 2025", "date": "Fri 3 Oct 2025", "track": "Tool Demonstration Track", "content": "Camera-ready Deadline"}
 {"conference": "ASE 2025", "date": "Fri 30 May 2025", "track": "Research Papers", "content": "Paper Submission"}
@@ -108,12 +112,15 @@
 {"conference": "STAF 2025", "date": "Fri 4 Apr 2025", "track": "OCL", "content": "Paper submission"}
 {"conference": "ESEIW 2025", "date": "Fri 4 Jul 2025", "track": "ESEM - Emerging Results and Vision Track", "content": "Notification"}
 {"conference": "ESEIW 2025", "date": "Fri 4 Jul 2025", "track": "ESEM - Industry, Government, and Community Track", "content": "Notifications"}
+{"conference": "ICFP/SPLASH 2025", "date": "Fri 4 Jul 2025", "track": "Erlang", "content": "Notification"}
 {"conference": "ESEIW 2025", "date": "Fri 6 Jun 2025", "track": "ESEM - Research Projects Track", "content": "Abstracts"}
 {"conference": "ESEIW 2025", "date": "Fri 6 Jun 2025", "track": "ESEM - Technical Track", "content": "Notification"}
+{"conference": "ICFP/SPLASH 2025", "date": "Fri 6 Jun 2025", "track": "Erlang", "content": "Submission Deadline"}
 {"conference": "ICFP/SPLASH 2025", "date": "Fri 6 Jun 2025", "track": "SPLASH Onward! Essays", "content": "First-round Notification"}
 {"conference": "ICFP/SPLASH 2025", "date": "Fri 6 Jun 2025", "track": "SPLASH Onward! Papers", "content": "First-round notification"}
 {"conference": "ICSME 2025", "date": "Fri 6 Jun 2025", "track": "Journal First Track", "content": "Paper Submission"}
 {"conference": "ECSA 2025", "date": "Fri 7 Mar 2025", "track": "Call for Workshops", "content": "Workshop proposal notification"}
+{"conference": "ICT4S 2025", "date": "Fri 7 Mar 2025", "track": "Research Papers", "content": "Final Paper submission deadline"}
 {"conference": "ICSE 2026", "date": "Fri 7 Mar 2025 23:59", "track": "Research Track", "content": "First Cycle: (Mandatory) Abstract"}
 {"conference": "vlhcc-2025", "date": "Fri 8 Aug 2025", "track": "Research Papers", "content": "Camera-ready"}
 {"conference": "ECSA 2025", "date": "Fri 9 May 2025", "track": "Call for Research Papers", "content": "Notification of Acceptance"}
@@ -143,7 +150,6 @@
 {"conference": "EASE 2025", "date": "Mon 14 Apr 2025", "track": "LEARNER", "content": "Author Notification"}
 {"conference": "ESEIW 2025", "date": "Mon 14 Apr 2025", "track": "ESEM - Registered Reports Track", "content": "Initial report submission"}
 {"conference": "FSE 2025", "date": "Mon 14 Apr 2025", "track": "Tutorials", "content": "Camera-ready deadline"}
-{"conference": "ICT4S 2025", "date": "Mon 14 Apr 2025", "track": "Workshops", "content": "Camera-ready workshop copies"}
 {"conference": "XP 2025", "date": "Mon 14 Apr 2025", "track": "Experience Reports", "content": "Submission of final Experience Report"}
 {"conference": "ECSA 2025", "date": "Mon 14 Jul 2025", "track": "ICTSS General Track", "content": "Camera-ready and author registration"}
 {"conference": "ICFP/SPLASH 2025", "date": "Mon 14 Jul 2025", "track": "VMIL", "content": "Abstract Submission (Research papers)"}
@@ -199,9 +205,6 @@
 {"conference": "Requirements Engineering 2025", "date": "Mon 28 Apr 2025", "track": "Journal-First", "content": "Submission"}
 {"conference": "Requirements Engineering 2025", "date": "Mon 28 Apr 2025", "track": "Tutorials", "content": "Proposal"}
 {"conference": "ASE 2025", "date": "Mon 29 Sep 2025", "track": "Journal-First Track", "content": "Author Notification"}
-{"conference": "FSE 2025", "date": "Mon 3 Mar 2025", "track": "Tutorials", "content": "Acceptance"}
-{"conference": "Requirements Engineering 2025", "date": "Mon 3 Mar 2025", "track": "Research Papers", "content": "Abstract submission"}
-{"conference": "Requirements Engineering 2025", "date": "Mon 3 Mar 2025", "track": "Workshops", "content": "Workshop summary (for website) sent to Workshop Co-chairs"}
 {"conference": "Requirements Engineering 2025", "date": "Mon 30 Jun - Fri 4 Jul 2025", "track": "Artifacts", "content": "Rebuttal period"}
 {"conference": "ICFP/SPLASH 2025", "date": "Mon 30 Jun 12:00 - Fri 11 Jul 12:00 2025", "track": "SPLASH OOPSLA Artifacts", "content": "Kick-the-Tires Round 2"}
 {"conference": "ECSA 2025", "date": "Mon 30 Jun 2025", "track": "ICTSS General Track", "content": "Notification of Acceptance"}
@@ -272,7 +275,6 @@
 {"conference": "ICST 2025", "date": "Sat 8 Mar 2025", "track": "Mutation", "content": "Camera Ready"}
 {"conference": "ICST 2025", "date": "Sat 8 Mar 2025", "track": "NEXTA", "content": "Camera-ready submission (all categories)"}
 {"conference": "ICST 2025", "date": "Sat 8 Mar 2025", "track": "SAFE-ML", "content": "Camera-ready"}
-{"conference": "ICT4S 2025", "date": "Sat 8 Mar 2025", "track": "Workshops", "content": "Workshop Proposal submissions deadline extended"}
 {"conference": "PROFES 2025", "date": "Sat 9 Aug 2025", "track": "Doctoral Symposium", "content": "Submission"}
 {"conference": "PROFES 2025", "date": "Sat 9 Aug 2025", "track": "Industry Papers", "content": "Submission"}
 {"conference": "PROFES 2025", "date": "Sat 9 Aug 2025", "track": "Short Papers and Posters", "content": "Submission"}
@@ -379,12 +381,12 @@
 {"conference": "MODELS 2025", "date": "Thu 24 Jul 2025", "track": "Educators Symposium", "content": "Submission deadline"}
 {"conference": "ASE 2025", "date": "Thu 25 Sep 2025", "track": "Research Papers", "content": "Notification for Major Revisions"}
 {"conference": "FSE 2025", "date": "Thu 26 - Fri 27 Jun 2025", "track": "2030 Software Engineering", "content": "Worksop"}
-{"conference": "ICT4S 2025", "date": "Thu 27 Mar 2025", "track": "Workshops", "content": "Workshop Proposals online"}
-{"conference": "ICT4S 2025", "date": "Thu 27 Mar 2025", "track": "Workshops", "content": "Workshop proposal acceptance new notification"}
 {"conference": "MODELS 2025", "date": "Thu 27 Mar 2025", "track": "Research Papers", "content": "Abstract submission"}
 {"conference": "ICFP/SPLASH 2025", "date": "Thu 29 May 2025", "track": "ICFP  Artifacts", "content": "Artifact registration"}
 {"conference": "ICSME 2025", "date": "Thu 29 May 2025", "track": "Tool Demonstration Track", "content": "Paper Submission"}
 {"conference": "FSE 2025", "date": "Thu 3 Apr 2025", "track": "Student Volunteers", "content": "Submission deadline"}
+{"conference": "ICT4S 2025", "date": "Thu 3 Apr 2025", "track": "Workshops", "content": "Extended Workshop Proposals online"}
+{"conference": "ICT4S 2025", "date": "Thu 3 Apr 2025", "track": "Workshops", "content": "Extended Workshop proposal acceptance new notification"}
 {"conference": "MODELS 2025", "date": "Thu 3 Apr 2025", "track": "Research Papers", "content": "Submission deadline"}
 {"conference": "STAF 2025", "date": "Thu 3 Apr 2025", "track": "AI4DPS", "content": "Submission due"}
 {"conference": "ICFP/SPLASH 2025", "date": "Thu 31 Jul 2025", "track": "SAS", "content": "Camera-Ready"}
@@ -456,7 +458,7 @@
 {"conference": "FSE 2025", "date": "Tue 30 Sep 2025", "track": "2030 Software Engineering", "content": "Submission Deadline for the ACM TOSEM special issue"}
 {"conference": "FSE 2025", "date": "Tue 4 Mar 2025", "track": "AI IDE", "content": "Submission Deadline"}
 {"conference": "FSE 2025", "date": "Tue 4 Mar 2025", "track": "Journal First", "content": "Submission deadline"}
-{"conference": "ICT4S 2025", "date": "Tue 4 Mar 2025", "track": "Research Papers", "content": "Paper submission extended deadline"}
+{"conference": "ICT4S 2025", "date": "Tue 4 Mar 2025", "track": "Research Papers", "content": "Paper abstract mandatory submission deadline"}
 {"conference": "STAF 2025", "date": "Tue 4 Mar 2025", "track": "SLE", "content": "Abstract and Paper Submission"}
 {"conference": "PROFES 2025", "date": "Tue 8 Apr 2025", "track": "Workshops and Tutorials", "content": "Tutorial proposal submission"}
 {"conference": "PROFES 2025", "date": "Tue 8 Apr 2025", "track": "Workshops and Tutorials", "content": "Workshop proposal submission"}
@@ -472,7 +474,6 @@
 {"conference": "STAF 2025", "date": "Wed 11 Jun 2025 09:00 -  17:00", "track": "AI4DPS", "content": "Workshop"}
 {"conference": "EASE 2025", "date": "Wed 12 Mar 2025", "track": "Learnings/Reflections of Evaluation and Assessment projects in Software Engineering", "content": "Submission Deadline"}
 {"conference": "XP 2025", "date": "Wed 12 Mar 2025", "track": "Posters", "content": "Submission deadline"}
-{"conference": "ICT4S 2025", "date": "Wed 14 May 2025", "track": "Demonstrations and Posters", "content": "Camera-ready abstracts and posters"}
 {"conference": "ICSME 2025", "date": "Wed 16 Jul 2025", "track": "Registered Reports", "content": "Notification of Stage 1"}
 {"conference": "ICT4S 2025", "date": "Wed 2 Apr 2025", "track": "Research Papers", "content": "Paper acceptance notification new date"}
 {"conference": "CISOSE 2025", "date": "Wed 21 May 2025", "track": "IEEE IMC 2025", "content": "Final paper submission (camera-ready)"}
