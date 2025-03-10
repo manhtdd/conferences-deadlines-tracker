@@ -1,6 +1,7 @@
 {"conference": "ASE 2025", "date": "Fri 1 Aug 2025", "track": "Industry Showcase", "content": "Submission Deadline"}
 {"conference": "ESEIW 2025", "date": "Fri 1 Aug 2025", "track": "ESEM - Journal First Track", "content": "Notifications"}
 {"conference": "ICFP/SPLASH 2025", "date": "Fri 1 Aug 2025", "track": "LMPL", "content": "Author Notification (tentative)"}
+{"conference": "ATVA 2025", "date": "Fri 11 Apr 2025", "track": "Research Papers", "content": "Abstract submission deadline"}
 {"conference": "ISSTA 2025", "date": "Fri 11 Apr 2025", "track": "Artifact Evaluation", "content": "Artifact Submission Deadline"}
 {"conference": "STAF 2025", "date": "Fri 11 Apr 2025", "track": "ECMFA", "content": "Round 2 - Submission of Revisions"}
 {"conference": "STAF 2025", "date": "Fri 11 Apr 2025", "track": "ICMM", "content": "Paper Submission"}
@@ -34,6 +35,7 @@
 {"conference": "vlhcc-2025", "date": "Fri 16 May 2025", "track": "Research Papers", "content": "Submission deadline"}
 {"conference": "ICSE 2026", "date": "Fri 17 Oct 2025 23:59", "track": "Research Track", "content": "First Cycle: Final decision (of revised papers)"}
 {"conference": "ICSE 2026", "date": "Fri 17 Oct 2025 23:59", "track": "Research Track", "content": "Second Cycle: Notification"}
+{"conference": "ATVA 2025", "date": "Fri 18 Apr 2025", "track": "Research Papers", "content": "Paper submission deadline"}
 {"conference": "EASE 2025", "date": "Fri 18 Apr 2025", "track": "Short Papers, Emerging Results", "content": "Notification Deadline"}
 {"conference": "ESEIW 2025", "date": "Fri 18 Apr 2025", "track": "ESEM - Technical Track", "content": "Abstract (mandatory)"}
 {"conference": "ICT4S 2025", "date": "Fri 18 Apr 2025", "track": "Demonstrations and Posters", "content": "Abstracts and submissions new acceptance notification"}
@@ -273,14 +275,6 @@
 {"conference": "STAF 2025", "date": "Sat 3 May 2025", "track": "TTC", "content": "Author notification"}
 {"conference": "APLAS 2025", "date": "Sat 31 May 2025", "track": "Research Papers", "content": "Submission Deadline"}
 {"conference": "ICT4S 2025", "date": "Sat 5 Apr 2025", "track": "Journal First", "content": "Journal first acceptance notification"}
-{"conference": "ICST 2025", "date": "Sat 8 Mar 2025", "track": "A-MOST", "content": "Camera-Ready Version"}
-{"conference": "ICST 2025", "date": "Sat 8 Mar 2025", "track": "A-TEST", "content": "Camera-ready submission (all categories)"}
-{"conference": "ICST 2025", "date": "Sat 8 Mar 2025", "track": "ITEQS", "content": "Camera-ready submission"}
-{"conference": "ICST 2025", "date": "Sat 8 Mar 2025", "track": "IWCT", "content": "Camera-ready submission (all categories)"}
-{"conference": "ICST 2025", "date": "Sat 8 Mar 2025", "track": "InSTA", "content": "Camera ready"}
-{"conference": "ICST 2025", "date": "Sat 8 Mar 2025", "track": "Mutation", "content": "Camera Ready"}
-{"conference": "ICST 2025", "date": "Sat 8 Mar 2025", "track": "NEXTA", "content": "Camera-ready submission (all categories)"}
-{"conference": "ICST 2025", "date": "Sat 8 Mar 2025", "track": "SAFE-ML", "content": "Camera-ready"}
 {"conference": "PROFES 2025", "date": "Sat 9 Aug 2025", "track": "Doctoral Symposium", "content": "Submission"}
 {"conference": "PROFES 2025", "date": "Sat 9 Aug 2025", "track": "Industry Papers", "content": "Submission"}
 {"conference": "PROFES 2025", "date": "Sat 9 Aug 2025", "track": "Short Papers and Posters", "content": "Submission"}
