@@ -149,6 +149,7 @@
 {"conference": "Requirements Engineering 2025", "date": "Mon 12 May 2025", "track": "Tutorials", "content": "Notification"}
 {"conference": "ICFP/SPLASH 2025", "date": "Mon 13 - Wed 15 Oct 2025", "track": "SAS", "content": "Conference Date"}
 {"conference": "ESEIW 2025", "date": "Mon 13 Apr 2026", "track": "ESEM - Registered Reports Track", "content": "Full paper submission to EMSE"}
+{"conference": "ICFP/SPLASH 2025", "date": "Mon 13 Oct 2025", "track": "PROPL", "content": "Workshop"}
 {"conference": "EASE 2025", "date": "Mon 14 Apr 2025", "track": "Doctoral Symposium", "content": "Notification Deadline"}
 {"conference": "EASE 2025", "date": "Mon 14 Apr 2025", "track": "LEARNER", "content": "Author Notification"}
 {"conference": "ESEIW 2025", "date": "Mon 14 Apr 2025", "track": "ESEM - Registered Reports Track", "content": "Initial report submission"}
@@ -357,7 +358,6 @@
 {"conference": "ICFP/SPLASH 2025", "date": "Thu 12 Jun 2025", "track": "ICFP  Papers", "content": "Deadline for Submitting Revisions"}
 {"conference": "ICSME 2025", "date": "Thu 12 Jun 2025", "track": "Doctoral Symposium", "content": "Paper Submission"}
 {"conference": "Requirements Engineering 2025", "date": "Thu 12 Jun 2025", "track": "Posters and Tool Demos", "content": "Submission"}
-{"conference": "ICSME 2025", "date": "Thu 13 Mar 2025", "track": "Research Papers Track", "content": "Paper Submission"}
 {"conference": "ASE 2025", "date": "Thu 14 Aug 2025", "track": "Research Papers", "content": "Initial Notification"}
 {"conference": "CISOSE 2025", "date": "Thu 15 May 2025", "track": "IEEE JCC 2025", "content": "Author Notification"}
 {"conference": "CISOSE 2025", "date": "Thu 15 May 2025", "track": "IEEE SOSE 2025", "content": "Author Notification"}
