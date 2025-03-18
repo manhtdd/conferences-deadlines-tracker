@@ -63,8 +63,8 @@
 {"conference": "CISOSE 2025", "date": "Fri 21 Mar 2025", "track": "IEEE DAPPS 2025", "content": "Submission Deadline (EXTENDED)"}
 {"conference": "CISOSE 2025", "date": "Fri 21 Mar 2025", "track": "IEEE IMC 2025", "content": "Paper/Poster Submission Deadline"}
 {"conference": "EASE 2025", "date": "Fri 21 Mar 2025", "track": "Research Papers", "content": "Notification Deadline"}
-{"conference": "ECSA 2025", "date": "Fri 21 Mar 2025", "track": "Call for Research Papers", "content": "Paper Submission"}
-{"conference": "ECSA 2025", "date": "Fri 21 Mar 2025", "track": "Industry Program", "content": "Paper submission"}
+{"conference": "ECSA 2025", "date": "Fri 21 Mar 2025", "track": "Call for Research Papers", "content": "Abstract Submission"}
+{"conference": "ECSA 2025", "date": "Fri 21 Mar 2025", "track": "Industry Program", "content": "Abstract submission"}
 {"conference": "ICT4S 2025", "date": "Fri 21 Mar 2025", "track": "Journal First", "content": "Journal first submission deadline"}
 {"conference": "ICT4S 2025", "date": "Fri 21 Mar 2025", "track": "Workshops", "content": "Extended Workshop Proposal submissions deadline"}
 {"conference": "ICFP/SPLASH 2025", "date": "Fri 22 Aug 2025", "track": "SPLASH OOPSLA", "content": "Camera Ready R2"}
@@ -93,6 +93,8 @@
 {"conference": "ICFP/SPLASH 2025", "date": "Fri 27 Jun 2025", "track": "SPLASH OOPSLA Artifacts", "content": "Submission Round 2"}
 {"conference": "MODELS 2025", "date": "Fri 27 Jun 2025", "track": "EDTconf Technical Track", "content": "Abstract submission deadline"}
 {"conference": "EASE 2025", "date": "Fri 28 Mar 2025", "track": "EQUISA", "content": "Submission deadline"}
+{"conference": "ECSA 2025", "date": "Fri 28 Mar 2025", "track": "Call for Research Papers", "content": "Paper Submission"}
+{"conference": "ECSA 2025", "date": "Fri 28 Mar 2025", "track": "Industry Program", "content": "Paper submission"}
 {"conference": "ISSTA 2025", "date": "Fri 28 Mar 2025", "track": "EXPRESS", "content": "Submission Deadline"}
 {"conference": "MODELS 2025", "date": "Fri 28 Mar 2025", "track": "Workshops", "content": "Submission deadline"}
 {"conference": "STAF 2025", "date": "Fri 28 Mar 2025", "track": "Agile MDE", "content": "Abstract Submission deadline"}
@@ -255,7 +257,6 @@
 {"conference": "Requirements Engineering 2025", "date": "Mon 7 Jul 2025", "track": "Posters and Tool Demos", "content": "Camera Ready"}
 {"conference": "Requirements Engineering 2025", "date": "Mon 7 Jul 2025", "track": "Workshops", "content": "Workshop paper notification"}
 {"conference": "POPL 2026", "date": "Mon 8 Sep 2025", "track": "POPL", "content": "Beginning of author response period"}
-{"conference": "ICFP/SPLASH 2025", "date": "Mon 9 Jun 2025", "track": "Haskell", "content": "Paper submission deadline"}
 {"conference": "ICSME 2025", "date": "Mon 9 Jun 2025", "track": "SCAM Research Track", "content": "Paper submission"}
 {"conference": "Requirements Engineering 2025", "date": "Mon 9 Jun 2025", "track": "Industrial Innovation Track", "content": "Presentation Outline"}
 {"conference": "Requirements Engineering 2025", "date": "Mon 9 Jun 2025", "track": "Workshops", "content": "Workshop papers due"}
@@ -293,15 +294,6 @@
 {"conference": "EASE 2025", "date": "Sun 13 Apr 2025", "track": "Tutorials", "content": "Notification Deadline"}
 {"conference": "EASE 2025", "date": "Sun 13 Apr 2025", "track": "Workshops", "content": "Workshop Paper Notification Deadline"}
 {"conference": "APSEC 2025", "date": "Sun 13 Jul 2025", "track": "Research Papers", "content": "Paper Deadline"}
-{"conference": "EASE 2025", "date": "Sun 16 Mar 2025", "track": "E-QSE", "content": "Submission Deadline"}
-{"conference": "EASE 2025", "date": "Sun 16 Mar 2025", "track": "Industry Papers", "content": "Submission Deadline"}
-{"conference": "EASE 2025", "date": "Sun 16 Mar 2025", "track": "International Workshop on Software Security Engineering", "content": "Papers submission"}
-{"conference": "EASE 2025", "date": "Sun 16 Mar 2025", "track": "LEARNER", "content": "Paper Submission"}
-{"conference": "EASE 2025", "date": "Sun 16 Mar 2025", "track": "Learnings/Reflections of Evaluation and Assessment projects in Software Engineering", "content": "Submission Deadline"}
-{"conference": "EASE 2025", "date": "Sun 16 Mar 2025", "track": "Posters and Vision", "content": "Submission Deadline"}
-{"conference": "EASE 2025", "date": "Sun 16 Mar 2025", "track": "Short Papers, Emerging Results", "content": "Full Paper Submission Deadline"}
-{"conference": "EASE 2025", "date": "Sun 16 Mar 2025", "track": "Tutorials", "content": "Submission Deadline"}
-{"conference": "EASE 2025", "date": "Sun 16 Mar 2025", "track": "Workshops", "content": "Workshop Paper Submission Deadline"}
 {"conference": "CISOSE 2025", "date": "Sun 18 May 2025", "track": "IEEE DAPPS 2025", "content": "Final paper submission (camera-ready)"}
 {"conference": "CISOSE 2025", "date": "Sun 18 May 2025", "track": "IEEE ISADS 2025", "content": "Camera-ready copies due"}
 {"conference": "ICSME 2025", "date": "Sun 18 May 2025", "track": "Industry Track", "content": "Paper Submission"}
@@ -354,10 +346,8 @@
 {"conference": "ASE 2025", "date": "Thu 14 Aug 2025", "track": "Research Papers", "content": "Initial Notification"}
 {"conference": "CISOSE 2025", "date": "Thu 15 May 2025", "track": "IEEE JCC 2025", "content": "Author Notification"}
 {"conference": "CISOSE 2025", "date": "Thu 15 May 2025", "track": "IEEE SOSE 2025", "content": "Author Notification"}
-{"conference": "ICFP/SPLASH 2025", "date": "Thu 16 - Fri 17 Oct 2025", "track": "Haskell", "content": "Symposium"}
 {"conference": "ICFP/SPLASH 2025", "date": "Thu 16 Oct 2025", "track": "ML Family Workshop", "content": "Workshop"}
 {"conference": "ICFP/SPLASH 2025", "date": "Thu 16 Oct 2025", "track": "Scheme", "content": "Workshop"}
-{"conference": "ICFP/SPLASH 2025", "date": "Thu 17 Jul 2025", "track": "Haskell", "content": "Author Notification"}
 {"conference": "ICFP/SPLASH 2025", "date": "Thu 17 Jul 2025", "track": "SPLASH Onward! Essays", "content": "Revision Deadline"}
 {"conference": "ICFP/SPLASH 2025", "date": "Thu 17 Jul 2025", "track": "SPLASH Onward! Papers", "content": "Revised submission deadline"}
 {"conference": "ICFP/SPLASH 2025", "date": "Thu 17 Jul 2025", "track": "Scheme", "content": "Submission deadline"}
